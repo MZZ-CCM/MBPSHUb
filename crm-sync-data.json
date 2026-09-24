@@ -1,0 +1,1072 @@
+{
+  "investors": [
+    {
+      "id": "mpe1ukjdur3y85de75",
+      "name": "Vonayi Nyamazana",
+      "company": "Dzimba Developers",
+      "email": "inspired2010@hotmail.com",
+      "phone": "07908216472",
+      "type": "Serviced Accommodation",
+      "status": "Active",
+      "budget": 2000,
+      "yield": -0.2,
+      "locations": "bicester, Oxfordshire",
+      "refurb": "Ready to let only",
+      "source": "referral",
+      "agreementSigned": true,
+      "depositPaid": true,
+      "depositAmount": 350,
+      "notes": "beginner, looking to eventually get into luxury stays.  \n\nPROPERTY SOURCING BRIEF – SERVICED ACCOMMODATION / SHORT-TERM LETS\n\nLocation Focus:\n\n* Bicester, Oxfordshire\n* Priority areas: \n◦ Bicester Village vicinity\n◦ Bicester North Station catchment\n◦ Bicester Village Station catchment\n◦ Kingsmere Development\n◦ Langford Village\n◦ Elmsbrook\n◦ Areas with good transport links to Oxford, Milton Keynes, Banbury, and London\n\nProperty Type:\n* 2-bedroom houses preferred\n* 2-bedroom apartments considered only if service charges are reasonable\n* Modern, well-presented properties requiring minimal refurbishment\n* Good natural light and attractive interior layout\n* Dedicated living/dining space\n* Fully equipped kitchen\n* Minimum 1 bathroom\n* Parking desirable (minimum 1 space)\n* Garden desirable for houses\n\nTarget Guest Profile:\n* Corporate travellers\n* Contractors working locally\n* Professionals relocating to the area\n* Families visiting Bicester Village\n* Visitors to Oxford and surrounding areas\n* Insurance and emergency accommodation guests.\n\nLandlord Requirements:\n* Landlord must be open to a corporate let or rent-to-rent arrangement\n* Willingness to allow serviced accommodation use in writing\n* Long-term lease preferred \n* Permission to furnish the property\n* Permission to install smart lock/check-in systems.\n\nCompliance Requirements:\n* No restrictive lease clauses preventing short-term letting\n* Property must be capable of meeting: \n◦ Fire safety requirements\n◦ Smoke and CO alarm regulations\n◦ Electrical safety requirements\n◦ Gas safety requirements\n◦ Local council requirements\n\nI would prioritise:\nA 2-bed house near Bicester Village.\nA 2-bed house near Bicester North Station.",
+      "createdAt": "2026-05-20T12:40:00.889Z",
+      "updatedAt": "2026-06-24T18:41:58.221Z"
+    },
+    {
+      "id": "mpepu6hs8ebm48",
+      "name": "Emelina Gwagwa",
+      "company": "Emelina Events/catering",
+      "email": "Emugwagwa@yahoo.com",
+      "phone": "07365853034",
+      "type": "Serviced Accommodation",
+      "status": "Prospect",
+      "budget": 2000,
+      "yield": null,
+      "locations": "west mindlands, Milton keynes ",
+      "agreementSigned": false,
+      "depositPaid": false,
+      "notes": "Not interested in buying business, looking for a space that can fit 100 people or a space in commercial unit. or pubs.",
+      "createdAt": "2026-05-20T23:51:33.473Z",
+      "depositAmount": 350
+    }
+  ],
+  "acquisitions": [
+    {
+      "id": "mqshf8uotyi59c",
+      "name": "Wetherby Road, Bicester OX26",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Fell Through",
+      "priority": "High",
+      "address": "https://www.zoopla.co.uk/to-rent/details/73479564/?search_identifier=98253ae530a89416c2e8e1599687fb4a1266e954637ffb82d33c6a0c51ac944d",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "price": 2150,
+      "rent": null,
+      "fee": 0,
+      "renovation": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/1024/768/10c7b9e29467f4eac0220226b559727f57a63d59.jpg:p",
+      "notes": "",
+      "strategyInputs": {
+        "nightlyRate": 428.5,
+        "occupancyPct": 50,
+        "rentToLandlord": 2150,
+        "billsMonthly": 400,
+        "cleaningPerTurnover": 45,
+        "avgStayNights": 3,
+        "otaFeePct": 15,
+        "mgmtFeePct": 15,
+        "setupCost": 3000
+      },
+      "createdAt": "2026-06-24T19:44:28.560Z",
+      "updatedAt": "2026-06-26T19:49:20.823Z",
+      "matchedInvestorIds": [],
+      "listingStatus": "public",
+      "deposit": null
+    },
+    {
+      "id": "mqsi3f3dudyvdj",
+      "name": "Bristol road, Bicester OX26",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "Medium",
+      "address": "https://www.zoopla.co.uk/to-rent/property/bicester/?q=Bicester%2C+Oxfordshire&search_source=home#listing_73440064",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "price": 1650,
+      "rent": null,
+      "fee": 1650,
+      "renovation": 2000,
+      "deposit": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/480/360/abd06d83d2555ed52829ff6ebfd284723926e11c.jpg:p",
+      "notes": "",
+      "strategyInputs": {
+        "nightlyRate": null,
+        "occupancyPct": null,
+        "rentToLandlord": null,
+        "billsMonthly": null,
+        "cleaningPerTurnover": null,
+        "avgStayNights": null,
+        "otaFeePct": null,
+        "mgmtFeePct": null,
+        "setupCost": null
+      },
+      "createdAt": "2026-06-24T20:03:16.393Z",
+      "updatedAt": "2026-06-27T22:49:07.027Z",
+      "matchedInvestorIds": [
+        "mpepu6hs8ebm48"
+      ],
+      "listingStatus": "public",
+      "investorDecision": {
+        "status": "accepted",
+        "at": "2026-06-27T22:47:56.396Z"
+      },
+      "reserved": {
+        "at": "2026-06-27T22:47:59.434Z",
+        "amount": 100,
+        "confirmed": true,
+        "confirmedAt": "2026-06-27T22:49:07.027Z"
+      }
+    },
+    {
+      "id": "mqsi70dsp6ni4r",
+      "name": "Charlotte Avenue, Elmsbrook, OX27",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "High",
+      "address": "https://www.zoopla.co.uk/to-rent/details/70846591/?search_identifier=98253ae530a89416c2e8e1599687fb4a1266e954637ffb82d33c6a0c51ac944d",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "price": 1500,
+      "rent": null,
+      "fee": 1500,
+      "renovation": 2000,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/480/360/c395d68af6e178d04dae7a702796343d01e85a15.jpg:p",
+      "notes": "",
+      "createdAt": "2026-06-24T20:06:03.952Z",
+      "updatedAt": "2026-06-24T20:06:03.952Z",
+      "listingStatus": "public"
+    },
+    {
+      "id": "mqsi96sur40ytb",
+      "name": "Maud Close, Bicester OX26",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "Medium",
+      "address": "https://www.zoopla.co.uk/to-rent/details/73432259/?search_identifier=98253ae530a89416c2e8e1599687fb4a1266e954637ffb82d33c6a0c51ac944d",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "price": 1400,
+      "rent": null,
+      "fee": 1400,
+      "renovation": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/480/360/9e3991d1f41028ca11b372dca9a9557b36b90566.jpg:p",
+      "notes": "",
+      "createdAt": "2026-06-24T20:07:45.582Z",
+      "updatedAt": "2026-06-24T20:07:45.582Z",
+      "listingStatus": "public"
+    },
+    {
+      "id": "mqsibazj0um5k0",
+      "name": "Romford Close, Bicester ",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "Medium",
+      "address": "https://www.zoopla.co.uk/to-rent/details/73385093/?search_identifier=98253ae530a89416c2e8e1599687fb4a1266e954637ffb82d33c6a0c51ac944d",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "price": 1650,
+      "rent": null,
+      "fee": 1650,
+      "renovation": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/480/360/e8739831070bd13a4f5464639659fc9a44b4b340.jpg:p",
+      "notes": "",
+      "createdAt": "2026-06-24T20:09:24.319Z",
+      "updatedAt": "2026-06-26T19:38:18.738Z",
+      "investorDecision": {
+        "status": "accepted",
+        "at": "2026-06-26T19:38:18.700Z"
+      },
+      "listingStatus": "public"
+    },
+    {
+      "id": "mqsigy2e66ardj",
+      "name": "Wetherby Road, Bicester OX26",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "Medium",
+      "address": "https://www.zoopla.co.uk/to-rent/details/73383097/?search_identifier=98253ae530a89416c2e8e1599687fb4a1266e954637ffb82d33c6a0c51ac944d",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "price": 2150,
+      "rent": null,
+      "fee": 2150,
+      "renovation": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/480/360/7c3b9e88257fb6a77c2310c7efe4ad9566281cc2.jpg:p",
+      "notes": "",
+      "createdAt": "2026-06-24T20:13:47.510Z",
+      "updatedAt": "2026-06-24T20:13:47.510Z",
+      "listingStatus": "public"
+    },
+    {
+      "id": "mqsioob3h8a258",
+      "name": "pioneer way, Bicester OX26",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "Low",
+      "address": "https://www.zoopla.co.uk/to-rent/details/73116285/?search_identifier=e5aa42292385b3c3b9c70422bb75bca3398b1b6db64acc3f8bff161db0c0bd70",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "price": 2500,
+      "rent": null,
+      "fee": 2500,
+      "renovation": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/480/360/5d9db51262c901e2f7dbb969aceb1aa99870f6fa.jpg:p",
+      "notes": "",
+      "createdAt": "2026-06-24T20:19:48.111Z",
+      "updatedAt": "2026-06-27T22:49:10.266Z",
+      "investorDecision": {
+        "status": "accepted",
+        "at": "2026-06-26T16:01:49.287Z"
+      },
+      "reserved": {
+        "at": "2026-06-26T16:01:53.476Z",
+        "amount": 100,
+        "confirmed": true,
+        "confirmedAt": "2026-06-27T22:49:10.266Z"
+      },
+      "listingStatus": "public"
+    },
+    {
+      "id": "mqup7l0yu6gkcq",
+      "name": "Catterick Road",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "High",
+      "address": "https://www.zoopla.co.uk/to-rent/details/73547972/?search_identifier=1da26c655e80c74c12354a48b490d580865ff59527f0049665856458a5c29dd9",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "price": 2650,
+      "rent": null,
+      "fee": 2650,
+      "renovation": null,
+      "completion": "",
+      "image": "https://lid.zoocdn.com/u/1024/768/1eee4bd686c12cb1a3ae67b31856c0ee0def6f98.jpg:p",
+      "notes": "",
+      "createdAt": "2026-06-26T08:58:00.370Z",
+      "updatedAt": "2026-06-26T08:58:00.370Z",
+      "listingStatus": "public"
+    },
+    {
+      "id": "mrahkhdmyiwmv4",
+      "name": "Fringford, near Bicester",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "Medium",
+      "address": "https://www.rightmove.co.uk/properties/90464292#/?channel=RES_LET",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "price": 1900,
+      "rent": null,
+      "fee": 1900,
+      "renovation": null,
+      "deposit": null,
+      "completion": "",
+      "image": "https://media.rightmove.co.uk/property-photo/39b68fae3/90464292/39b68fae3ac14aa308503ceec8fffb58.jpeg",
+      "notes": "",
+      "listingStatus": "public",
+      "strategyInputs": {
+        "nightlyRate": null,
+        "occupancyPct": null,
+        "rentToLandlord": null,
+        "billsMonthly": null,
+        "cleaningPerTurnover": null,
+        "avgStayNights": null,
+        "otaFeePct": null,
+        "mgmtFeePct": null,
+        "setupCost": null
+      },
+      "createdAt": "2026-07-07T10:08:24.058Z",
+      "updatedAt": "2026-07-07T10:08:57.370Z",
+      "matchedInvestorIds": [
+        "mpepu6hs8ebm48"
+      ]
+    },
+    {
+      "id": "mrmfuigqcdljc4",
+      "name": "holm way, bicester, OX26",
+      "clientId": "mpe1ukjdur3y85de75",
+      "stage": "Enquiry",
+      "priority": "High",
+      "address": "https://www.rightmove.co.uk/properties/90782679#/?channel=RES_LET",
+      "proptype": "Serviced Accommodation",
+      "units": 1,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "price": 1500,
+      "rent": null,
+      "fee": 1500,
+      "renovation": null,
+      "deposit": 1730,
+      "completion": "2026-08-01",
+      "image": "https://media.rightmove.co.uk/property-photo/8abbb73ba/90782679/8abbb73ba46c0f8f6182895ae7c90f37.jpeg",
+      "notes": "going for viewing on Monday - need to convince landlord and agent that this agreement works for all parties involved.",
+      "listingStatus": "public",
+      "strategyInputs": {
+        "nightlyRate": null,
+        "occupancyPct": null,
+        "rentToLandlord": null,
+        "billsMonthly": null,
+        "cleaningPerTurnover": null,
+        "avgStayNights": null,
+        "otaFeePct": null,
+        "mgmtFeePct": null,
+        "setupCost": null
+      },
+      "createdAt": "2026-07-15T18:53:26.906Z",
+      "updatedAt": "2026-07-15T18:53:26.906Z",
+      "matchedInvestorIds": [
+        "mpepu6hs8ebm48"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "id": "prop_mpe1z058zglyumdwto8",
+      "name": "Fakenham street, Bicester, OX26",
+      "address": "Fakenham street, Bicester, OX26",
+      "type": "Serviced Accommodation",
+      "image": "",
+      "acquisitionId": "mpe1z058zglyumdwto8",
+      "value": 0,
+      "rent": 1948,
+      "units": 1,
+      "notes": ""
+    }
+  ],
+  "documents": [
+    {
+      "id": "mpe23c6472019lxcwoa",
+      "name": "DSA Vongayi Nyamazana",
+      "type": "Deal Sourcing Agreement",
+      "status": "Signed",
+      "clientId": "mpe1ukjdur3y85de75",
+      "dealId": "",
+      "date": "2026-05-20",
+      "amount": 350,
+      "fileUrl": "",
+      "notes": "",
+      "createdAt": "2026-05-20T12:46:49.948Z",
+      "fileName": "DSA - Dzimba developers.pdf",
+      "fileSize": 699632,
+      "fileType": "application/pdf"
+    },
+    {
+      "id": "mpe9z0m1f30y7xfmjfv",
+      "name": "invoice - Dzimba Developer",
+      "type": "Invoice",
+      "status": "Signed",
+      "clientId": "mpe1ukjdur3y85de75",
+      "dealId": "",
+      "date": "2026-05-20",
+      "amount": 350,
+      "fileUrl": "",
+      "notes": "",
+      "createdAt": "2026-05-20T16:27:25.273Z",
+      "fileName": "Dzimba developers invoice.pdf",
+      "fileSize": 416615,
+      "fileType": "application/pdf"
+    },
+    {
+      "id": "mpepwyud10kjer",
+      "name": "Deal Sourcing Agreement – Moyo Bespoke Property Solutions 1 ",
+      "type": "Deal Sourcing Agreement",
+      "status": "Draft",
+      "clientId": "",
+      "dealId": "",
+      "date": "2026-05-20",
+      "amount": null,
+      "fileUrl": "",
+      "notes": "",
+      "createdAt": "2026-05-20T23:53:43.525Z",
+      "fileName": "Deal Sourcing Agreement – Moyo Bespoke Property Solutions 1 (1).docx",
+      "fileSize": 78592,
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "mpe1n1o2ypqc939lo3",
+      "name": "ED",
+      "category": "Letting Agent",
+      "company": "Hamptons, Oxford ",
+      "spec": "lettings",
+      "email": "BELCHERE@Hamptons.co.uk",
+      "phone": "07709847886",
+      "location": "Bicester, Oxfordshire",
+      "rating": "⭐⭐⭐⭐ Good",
+      "notes": "met via rightmove, work together on acquiring rent to rent deals. ",
+      "createdAt": "2026-05-20T12:34:09.842Z"
+    },
+    {
+      "id": "mquor8yxmlns2m",
+      "name": "Oshe/ Osei",
+      "category": "Estate Agent",
+      "company": "Finders keepers - bicester ",
+      "spec": "",
+      "email": "",
+      "phone": "01869395080",
+      "location": "bicester ",
+      "rating": "⭐⭐⭐⭐ Good",
+      "notes": "",
+      "createdAt": "2026-06-26T08:45:18.250Z"
+    },
+    {
+      "id": "mr21http3tj5ut",
+      "name": "Michelle",
+      "category": "Letting Agent",
+      "company": "Listings ",
+      "spec": "Lettings ",
+      "email": "info@listings.co.uk",
+      "phone": "01869 321998",
+      "location": "bicester ",
+      "rating": "⭐⭐⭐⭐ Good",
+      "notes": "",
+      "createdAt": "2026-07-01T12:16:16.957Z"
+    },
+    {
+      "id": "mr21rln7ioiudz",
+      "name": "avocado property agents",
+      "category": "Estate Agent",
+      "company": "avocado property agents",
+      "spec": "",
+      "email": "",
+      "phone": "01344933077",
+      "location": "bicester",
+      "rating": "",
+      "notes": "",
+      "createdAt": "2026-07-01T12:23:52.915Z"
+    },
+    {
+      "id": "mrahbq7aqji7v9",
+      "name": "chancellor",
+      "category": "Estate Agent",
+      "company": "chancelor",
+      "spec": "",
+      "email": "",
+      "phone": "01869221589",
+      "location": "bicester",
+      "rating": "⭐⭐⭐⭐ Good",
+      "notes": "give them a call back and hope for a different rep - they say the y woud have to reference everyone haha",
+      "createdAt": "2026-07-07T10:01:35.591Z"
+    },
+    {
+      "id": "mrks1jctgzjhs4",
+      "name": "James ",
+      "category": "Letting Agent",
+      "company": "Taylors ",
+      "spec": "lettings ",
+      "email": "james.boom@taylorscountrywide.co.uk",
+      "phone": "01869347886",
+      "location": "bicester ",
+      "rating": "⭐⭐⭐⭐ Good",
+      "notes": "",
+      "createdAt": "2026-07-14T14:59:17.694Z"
+    }
+  ],
+  "fees": [],
+  "tasks": [
+    {
+      "id": "mpeq1s2mupjjex",
+      "title": "Send summary of what my clients business intends to do to agent at hampton ",
+      "due": "2026-05-21",
+      "priority": "High",
+      "investorId": "mpe1ukjdur3y85de75",
+      "acquisitionId": "mpe1z058zglyumdwto8",
+      "notes": "includde detils such as what is a company let and what are the benefits for the landlord (consider recent changes within the law regarding the rental space)",
+      "done": true,
+      "createdAt": "2026-05-20T23:57:28.030Z",
+      "updatedAt": "2026-06-26T15:51:53.783Z"
+    },
+    {
+      "id": "mpfy9t0fmlwjmb",
+      "title": "📞 Call agent — Spruce Drive",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0fcpe70v",
+      "investorId": "",
+      "notes": "Agent phone: 02035 893969\nProperty: 2 bed · 1 bath\nAddress: Spruce Drive, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/73197531/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:36.706Z"
+    },
+    {
+      "id": "mpfy9t0fwz8t0r",
+      "title": "📞 Call agent — Heron Drive",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0firtnx4",
+      "investorId": "",
+      "notes": "Agent phone: 01869 623908\nProperty: 2 bed · 1 bath\nAddress: Heron Drive, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/59162543/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:38.287Z"
+    },
+    {
+      "id": "mpfy9t0fclq346",
+      "title": "📞 Call agent — Moor Pond Close",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0fqg65sa",
+      "investorId": "",
+      "notes": "Agent phone: 01865 366344\nProperty: 1 bed · 1 bath\nAddress: Moor Pond Close, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/73153512/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:38.424Z"
+    },
+    {
+      "id": "mpfy9t0fwf9npg",
+      "title": "📞 Call agent — Westbury Court",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0fspycf4",
+      "investorId": "",
+      "notes": "Agent phone: 01869 623499\nProperty: 1 bed · 1 bath\nAddress: Westbury Court, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/73226911/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:38.961Z"
+    },
+    {
+      "id": "mpfy9t0fmd5xwy",
+      "title": "📞 Call agent — The Oval",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0fka1km8",
+      "investorId": "",
+      "notes": "Agent phone: 01869 248339\nProperty: 1 bed · 1 bath\nAddress: The Oval, Bicester, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/174007154\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:39.521Z"
+    },
+    {
+      "id": "mpfy9t0g1xk4h4",
+      "title": "📞 Call agent — Isis Avenue",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gpa3tg7",
+      "investorId": "",
+      "notes": "Agent phone: 01869 943646\nProperty: 2 bed · 1 bath\nAddress: Isis Avenue, Bicester, Oxfordshire, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/173372822\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:39.947Z"
+    },
+    {
+      "id": "mpfy9t0g1qewhl",
+      "title": "📞 Call agent — Avocet Way",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gvzgr0w",
+      "investorId": "",
+      "notes": "Agent phone: 01869 221576\nProperty: 1 bed · 1 bath\nAddress: Avocet Way, Bicester, Oxfordshire, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/117822068\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:40.206Z"
+    },
+    {
+      "id": "mpfy9t0g5nx689",
+      "title": "📞 Call agent — Roman Way",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gy36tuq",
+      "investorId": "",
+      "notes": "Agent phone: 01869 221589\nProperty: 1 bed · 1 bath\nAddress: Roman Way, Bicester, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/172779461\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:40.464Z"
+    },
+    {
+      "id": "mpfy9t0gdxyyss",
+      "title": "📞 Call agent — Whimbrel Close",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gtayb7z",
+      "investorId": "",
+      "notes": "Agent phone: 01869 221576\nProperty: 2 bed · 1 bath\nAddress: Whimbrel Close, Bicester, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/26934800\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:40.882Z"
+    },
+    {
+      "id": "mpfy9t0glu8xyo",
+      "title": "📞 Call agent — Coach House Mews",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gn9udu7",
+      "investorId": "",
+      "notes": "Agent phone: 01869 623059\nProperty: 1 bed · 1 bath\nAddress: Coach House Mews, Bicester OX26\nListed on: OnTheMarket\nAdvert: https://www.onthemarket.com/details/19323981/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:41.119Z"
+    },
+    {
+      "id": "mpfy9t0gmllljg",
+      "title": "📞 Call agent — Acorn Close",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gu70e39",
+      "investorId": "",
+      "notes": "Agent phone: 01869 395576\nProperty: 2 bed · 1 bath\nAddress: Acorn Close, Bicester\nListed on: OnTheMarket\nAdvert: https://www.onthemarket.com/details/19049884/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:41.389Z"
+    },
+    {
+      "id": "mpfy9t0g25dm5v",
+      "title": "📞 Call agent — Flanders Close",
+      "due": "2026-05-22",
+      "priority": "Medium",
+      "acquisitionId": "mpfy9t0gwatorf",
+      "investorId": "",
+      "notes": "Agent phone: (no number on advert — check link)\nProperty: 2 bed · 2 bath\nAddress: Flanders Close, OX26\nListed on: OpenRent\nAdvert: https://www.openrent.co.uk/property-to-rent/oxfordshire/2-bed-semi-detached-house-flanders-close-ox26/2891700\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-05-21T20:35:25.599Z",
+      "updatedAt": "2026-05-23T22:53:41.655Z"
+    },
+    {
+      "id": "mphav9uomf32l0",
+      "title": "📞 Discovery call — alana jade (12:30)",
+      "due": "2026-05-29",
+      "priority": "High",
+      "investorId": "mphav9uou1xmbw",
+      "acquisitionId": "",
+      "notes": "Time: 12:30 (30 min)\nPhone: 07749789397\nEmail: alanajadenicholas@gmail.com\nGoal: Monthly income / cash flow\nStrategy: —\nBudget: 500000\nSource: Referral\n\nNotes from client:\n(none)",
+      "done": true,
+      "createdAt": "2026-05-22T19:15:48.768Z",
+      "updatedAt": "2026-05-23T22:53:43.195Z"
+    },
+    {
+      "id": "mphbcxrxmx1fzs",
+      "title": "🎥 Discovery call — ffff (13:00)",
+      "due": "2026-06-05",
+      "priority": "High",
+      "investorId": "mphbcxrxjky0nn",
+      "acquisitionId": "",
+      "notes": "Time: 13:00 (30 min)\nPhone: +447447394309\nEmail: careanmoyo1@gmail.com\n🎥 Zoom: https://us05web.zoom.us/j/6386823722?pwd=tjuTi59UjWCezdTCMmp8aalqkZdqBQ.1\n\nGoal: Monthly income / cash flow\nStrategy: —\nBudget: 50k\nSource: Referral\n\nNotes from client:\n(none)",
+      "done": true,
+      "createdAt": "2026-05-22T19:29:32.925Z",
+      "updatedAt": "2026-05-23T22:53:43.734Z"
+    },
+    {
+      "id": "mqv3kfynvr228f",
+      "title": "📞 Call agent — Spruce Drive",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfyn35laox",
+      "investorId": "",
+      "notes": "Agent phone: 02035 893969\nProperty: 2 bed · 1 bath\nAddress: Spruce Drive, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/73197531/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:47.175Z"
+    },
+    {
+      "id": "mqv3kfyn24tquy",
+      "title": "📞 Call agent — Heron Drive",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfynqx7ow5",
+      "investorId": "",
+      "notes": "Agent phone: 01869 623908\nProperty: 2 bed · 1 bath\nAddress: Heron Drive, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/59162543/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:50.582Z"
+    },
+    {
+      "id": "mqv3kfynx2y1dr",
+      "title": "📞 Call agent — Moor Pond Close",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfyn9c31g8",
+      "investorId": "",
+      "notes": "Agent phone: 01865 366344\nProperty: 1 bed · 1 bath\nAddress: Moor Pond Close, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/73153512/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:50.939Z"
+    },
+    {
+      "id": "mqv3kfyn4o79g7",
+      "title": "📞 Call agent — Westbury Court",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfynznld7v",
+      "investorId": "",
+      "notes": "Agent phone: 01869 623499\nProperty: 1 bed · 1 bath\nAddress: Westbury Court, Bicester OX26\nListed on: Zoopla\nAdvert: https://www.zoopla.co.uk/to-rent/details/73226911/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:51.106Z"
+    },
+    {
+      "id": "mqv3kfynpy2wpc",
+      "title": "📞 Call agent — The Oval",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfynigbvjl",
+      "investorId": "",
+      "notes": "Agent phone: 01869 248339\nProperty: 1 bed · 1 bath\nAddress: The Oval, Bicester, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/174007154\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:51.260Z"
+    },
+    {
+      "id": "mqv3kfyn01gwk0",
+      "title": "📞 Call agent — Isis Avenue",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfyn8dhkzz",
+      "investorId": "",
+      "notes": "Agent phone: 01869 943646\nProperty: 2 bed · 1 bath\nAddress: Isis Avenue, Bicester, Oxfordshire, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/173372822\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:51.400Z"
+    },
+    {
+      "id": "mqv3kfynh2j2lz",
+      "title": "📞 Call agent — Avocet Way",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfynu9qfh8",
+      "investorId": "",
+      "notes": "Agent phone: 01869 221576\nProperty: 1 bed · 1 bath\nAddress: Avocet Way, Bicester, Oxfordshire, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/117822068\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:51.540Z"
+    },
+    {
+      "id": "mqv3kfyn23gwfs",
+      "title": "📞 Call agent — Roman Way",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfynu3pqv2",
+      "investorId": "",
+      "notes": "Agent phone: 01869 221589\nProperty: 1 bed · 1 bath\nAddress: Roman Way, Bicester, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/172779461\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:51.679Z"
+    },
+    {
+      "id": "mqv3kfynl2y7l7",
+      "title": "📞 Call agent — Whimbrel Close",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfynkazp8q",
+      "investorId": "",
+      "notes": "Agent phone: 01869 221576\nProperty: 2 bed · 1 bath\nAddress: Whimbrel Close, Bicester, OX26\nListed on: Rightmove\nAdvert: https://www.rightmove.co.uk/properties/26934800\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:51.875Z"
+    },
+    {
+      "id": "mqv3kfyn6k4mhr",
+      "title": "📞 Call agent — Coach House Mews",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfyntvk7fw",
+      "investorId": "",
+      "notes": "Agent phone: 01869 623059\nProperty: 1 bed · 1 bath\nAddress: Coach House Mews, Bicester OX26\nListed on: OnTheMarket\nAdvert: https://www.onthemarket.com/details/19323981/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:52.051Z"
+    },
+    {
+      "id": "mqv3kfyna7ujpa",
+      "title": "📞 Call agent — Acorn Close",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfyni6asxj",
+      "investorId": "",
+      "notes": "Agent phone: 01869 395576\nProperty: 2 bed · 1 bath\nAddress: Acorn Close, Bicester\nListed on: OnTheMarket\nAdvert: https://www.onthemarket.com/details/19049884/\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:52.226Z"
+    },
+    {
+      "id": "mqv3kfynmo2o8m",
+      "title": "📞 Call agent — Flanders Close",
+      "due": "2026-06-27",
+      "priority": "Medium",
+      "acquisitionId": "mqv3kfyn6ctj24",
+      "investorId": "",
+      "notes": "Agent phone: (no number on advert — check link)\nProperty: 2 bed · 2 bath\nAddress: Flanders Close, OX26\nListed on: OpenRent\nAdvert: https://www.openrent.co.uk/property-to-rent/oxfordshire/2-bed-semi-detached-house-flanders-close-ox26/2891700\n\nGoals for the call:\n• Confirm availability\n• Ask asking price / monthly rent\n• Check if landlord open to company let / R2R arrangement\n• Arrange viewing if numbers stack",
+      "done": true,
+      "createdAt": "2026-06-26T15:39:54.959Z",
+      "updatedAt": "2026-06-26T15:51:52.450Z"
+    },
+    {
+      "id": "task_mqv4cpc6v9963g",
+      "title": "Confirm reservation payment — pioneer way, Bicester OX26",
+      "due": "2026-06-26",
+      "priority": "High",
+      "investorId": "mpe1ukjdur3y85de75",
+      "acquisitionId": "mqsioob3h8a258",
+      "notes": "Investor confirmed they've paid the £100 reservation fee via the property link. Verify the transfer has landed, then mark the deal as locked.",
+      "done": true,
+      "createdAt": "2026-06-26T16:01:53.478Z",
+      "updatedAt": "2026-06-27T22:48:46.071Z"
+    },
+    {
+      "id": "task_mqwyaswa7ck6qa",
+      "title": "Confirm reservation payment — Bristol road, Bicester OX26",
+      "due": "2026-06-27",
+      "priority": "High",
+      "investorId": "",
+      "acquisitionId": "mqsi3f3dudyvdj",
+      "notes": "Investor confirmed they've paid the £100 reservation fee via the property link. Verify the transfer has landed, then mark the deal as locked.",
+      "done": true,
+      "createdAt": "2026-06-27T22:47:59.435Z",
+      "updatedAt": "2026-06-27T22:48:52.941Z"
+    }
+  ],
+  "communications": [
+    {
+      "id": "mqsfd63z8uo6l5",
+      "type": "WhatsApp",
+      "date": "2026-06-24",
+      "subject": "property search brief ",
+      "investorId": "mpe1ukjdur3y85de75",
+      "acquisitionId": "",
+      "notes": "PROPERTY SOURCING BRIEF – SERVICED ACCOMMODATION / SHORT-TERM LETS\n\nLocation Focus:\n\n* Bicester, Oxfordshire\n* Priority areas: \n◦ Bicester Village vicinity\n◦ Bicester North Station catchment\n◦ Bicester Village Station catchment\n◦ Kingsmere Development\n◦ Langford Village\n◦ Elmsbrook\n◦ Areas with good transport links to Oxford, Milton Keynes, Banbury, and London\n\nProperty Type:\n* 2-bedroom houses preferred\n* 2-bedroom apartments considered only if service charges are reasonable\n* Modern, well-presented properties requiring minimal refurbishment\n* Good natural light and attractive interior layout\n* Dedicated living/dining space\n* Fully equipped kitchen\n* Minimum 1 bathroom\n* Parking desirable (minimum 1 space)\n* Garden desirable for houses\n\nTarget Guest Profile:\n* Corporate travellers\n* Contractors working locally\n* Professionals relocating to the area\n* Families visiting Bicester Village\n* Visitors to Oxford and surrounding areas\n* Insurance and emergency accommodation guests.\n\nLandlord Requirements:\n* Landlord must be open to a corporate let or rent-to-rent arrangement\n* Willingness to allow serviced accommodation use in writing\n* Long-term lease preferred \n* Permission to furnish the property\n* Permission to install smart lock/check-in systems.\n\nCompliance Requirements:\n* No restrictive lease clauses preventing short-term letting\n* Property must be capable of meeting: \n◦ Fire safety requirements\n◦ Smoke and CO alarm regulations\n◦ Electrical safety requirements\n◦ Gas safety requirements\n◦ Local council requirements\n\nI would prioritise:\nA 2-bed house near Bicester Village.\nA 2-bed house near Bicester North Station.",
+      "createdAt": "2026-06-24T18:46:52.463Z"
+    }
+  ],
+  "formsync": {
+    "sheetUrl": "",
+    "intervalMin": 15,
+    "enabled": false,
+    "lastRun": null,
+    "lastError": null,
+    "status": "idle",
+    "importedCount": 0,
+    "lastBatchCount": 0,
+    "knownEmails": []
+  },
+  "market": {
+    "cities": [
+      {
+        "name": "UK Average",
+        "yield": 6.2,
+        "delta": 0.3
+      },
+      {
+        "name": "Manchester",
+        "yield": 7.1,
+        "delta": 0.4
+      },
+      {
+        "name": "Birmingham",
+        "yield": 6.8,
+        "delta": 0.2
+      },
+      {
+        "name": "London",
+        "yield": 5.1,
+        "delta": 0.1
+      },
+      {
+        "name": "Leeds",
+        "yield": 7.4,
+        "delta": 0.5
+      },
+      {
+        "name": "Liverpool",
+        "yield": 7.9,
+        "delta": 0.6
+      }
+    ],
+    "trends": [
+      {
+        "label": "Jan",
+        "yield": 6,
+        "growth": 4.8
+      },
+      {
+        "label": "Feb",
+        "yield": 6.1,
+        "growth": 5
+      },
+      {
+        "label": "Mar",
+        "yield": 6.2,
+        "growth": 5.3
+      },
+      {
+        "label": "Apr",
+        "yield": 6.3,
+        "growth": 5.6
+      },
+      {
+        "label": "May",
+        "yield": 6.5,
+        "growth": 5.9
+      },
+      {
+        "label": "Jun",
+        "yield": 6.6,
+        "growth": 6.1
+      }
+    ],
+    "headlines": [
+      {
+        "title": "Trump wants new Fed chair to be 'totally independent'",
+        "url": "https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&at_campaign=rss",
+        "date": "2026-05-22",
+        "source": "BBC Economy",
+        "summary": "The US president piled major pressure on Kevin Warsh's predecessor to cut interest rates."
+      },
+      {
+        "title": "Horden, my home, is crying out for change | Letters",
+        "url": "https://www.theguardian.com/society/2026/may/22/horden-my-home-is-crying-out-for-change",
+        "date": "2026-05-22",
+        "source": "Guardian Money",
+        "summary": "Robert Lodge calls for action to tackle the ‘housing spiral’ in the County Durham village where he grew up, but is now leaving at 18 As an 18-year-old who has grown up in Horden and lived on a street due to be knocked do"
+      },
+      {
+        "title": "Homes for sale in England with great gardens for parties – in pictures",
+        "url": "https://www.theguardian.com/money/gallery/2026/may/22/homes-for-sale-in-england-with-great-gardens-for-parties-in-pictures",
+        "date": "2026-05-22",
+        "source": "Guardian Money",
+        "summary": "From a farmhouse with a wildflower meadow to an award-winning London flat with a neat garden for al fresco dining Continue reading..."
+      },
+      {
+        "title": "April 2026 Transaction Data",
+        "url": "https://www.gov.uk/government/news/april-2026-transaction-data",
+        "date": "2026-05-22",
+        "source": "GOV.UK Land Registry",
+        "summary": "This data provides information about the number and types of applications that HM Land Registry completed in April 2026."
+      },
+      {
+        "title": "EYE NEWS UPDATE: Rightmove fires back in wake of legal action court date",
+        "url": "https://propertyindustryeye.com/eye-news-update-rightmove-fires-back-in-wake-of-legal-action-court-date/?utm_source=rss&utm_medium=rss&utm_campaign=eye-news-update-rightmove-fires-back-in-wake-of-legal-action-court-date",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "Rightmove breaks silence"
+      },
+      {
+        "title": "Government warned against ‘one of the biggest own goals’ in housing policy history",
+        "url": "https://propertyindustryeye.com/government-warned-against-one-of-the-biggest-own-goals-in-housing-policy-history/?utm_source=rss&utm_medium=rss&utm_campaign=government-warned-against-one-of-the-biggest-own-goals-in-housing-policy-history",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "The government is being urged to consider careful pragmatic reforms"
+      },
+      {
+        "title": "Is your estate agency among the best in the UK?",
+        "url": "https://propertyindustryeye.com/is-your-estate-agency-among-the-best-in-the-uk/?utm_source=rss&utm_medium=rss&utm_campaign=is-your-estate-agency-among-the-best-in-the-uk",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "Peter Knight said the awards are designed to measure real-world performance across the entire market"
+      },
+      {
+        "title": "Scrap stamp duty and council tax to tackle housing crisis",
+        "url": "https://propertyindustryeye.com/scrap-stamp-duty-and-council-tax-to-tackle-housing-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=scrap-stamp-duty-and-council-tax-to-tackle-housing-crisis",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "Report highlights growing inequality in housing space"
+      },
+      {
+        "title": "Mansion Tax plans unveiled as key details emerge",
+        "url": "https://propertyindustryeye.com/mansion-tax-plans-unveiled-as-key-details-emerge/?utm_source=rss&utm_medium=rss&utm_campaign=mansion-tax-plans-unveiled-as-key-details-emerge",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "Revaluations of properties worth more than £2m will be carried out every five years"
+      },
+      {
+        "title": "Renters back reform – but fear landlord exodus and rising rents",
+        "url": "https://propertyindustryeye.com/renters-back-reform-but-fear-landlord-exodus-and-rising-rents/?utm_source=rss&utm_medium=rss&utm_campaign=renters-back-reform-but-fear-landlord-exodus-and-rising-rents",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "New Rental Protections Boost Tenant Confidence but Trigger Supply Concerns"
+      },
+      {
+        "title": "What is currently happening in the UK property market?",
+        "url": "https://propertyindustryeye.com/what-is-currently-happening-in-the-uk-property-market-96/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-currently-happening-in-the-uk-property-market-96",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "UK home sales hit second-strongest week of the year, but overpricing remains a drag"
+      },
+      {
+        "title": "Comings & Goings",
+        "url": "https://propertyindustryeye.com/comings-goings-427/?utm_source=rss&utm_medium=rss&utm_campaign=comings-goings-427",
+        "date": "2026-05-22",
+        "source": "Property Industry Eye",
+        "summary": "New faces and key appointments"
+      }
+    ],
+    "agent": {
+      "mode": "rss",
+      "apiKey": "",
+      "model": "claude-sonnet-4-5",
+      "intervalMin": 30,
+      "enabled": true,
+      "lastRun": "2026-05-22T19:11:48.910Z",
+      "lastError": null,
+      "status": "running",
+      "lastSummary": "Aggregated 12 property-market headlines from 4 credible UK sources (BBC Economy, Guardian Money, GOV.UK Land Registry, Property Industry Eye). All sources reachable. Click headlines below to read at the source."
+    },
+    "asOf": "2026-05-22"
+  },
+  "settings": {
+    "greetingName": "CEO MZZ",
+    "currency": "£",
+    "meetingProvider": "Zoom",
+    "meetingUrl": "https://us05web.zoom.us/j/6386823722?pwd=tjuTi59UjWCezdTCMmp8aalqkZdqBQ.1",
+    "meetingPasscode": "",
+    "bankDetails": {
+      "accountName": "Moyo Bespoke Property Solutions Ltd",
+      "sortCode": "00-00-00",
+      "accountNumber": "00000000",
+      "reservationFee": 100
+    }
+  },
+  "bookings": [
+    {
+      "id": "mphav9ulfnatek",
+      "name": "alana jade",
+      "email": "alanajadenicholas@gmail.com",
+      "phone": "07749789397",
+      "date": "2026-05-29",
+      "time": "12:30",
+      "datetime": "2026-05-29T12:30:00",
+      "duration": 30,
+      "source": "Referral",
+      "goal": "Monthly income / cash flow",
+      "strategy": "",
+      "budget": "500000",
+      "budgetParsed": 500000,
+      "notes": "",
+      "status": "confirmed",
+      "createdAt": "2026-05-22T19:15:48.765Z",
+      "investorId": "mphav9uou1xmbw"
+    },
+    {
+      "id": "mphbcxruqkzdsq",
+      "name": "ffff",
+      "email": "careanmoyo1@gmail.com",
+      "phone": "+447447394309",
+      "date": "2026-06-05",
+      "time": "13:00",
+      "datetime": "2026-06-05T13:00:00",
+      "duration": 30,
+      "source": "Referral",
+      "goal": "Monthly income / cash flow",
+      "strategy": "",
+      "budget": "50k",
+      "budgetParsed": 50000,
+      "notes": "",
+      "meetingProvider": "Zoom",
+      "meetingUrl": "https://us05web.zoom.us/j/6386823722?pwd=tjuTi59UjWCezdTCMmp8aalqkZdqBQ.1",
+      "meetingPasscode": null,
+      "status": "confirmed",
+      "createdAt": "2026-05-22T19:29:32.922Z",
+      "investorId": "mphbcxrxjky0nn"
+    }
+  ],
+  "_savedAt": "2026-07-20T14:12:57.847Z"
+}

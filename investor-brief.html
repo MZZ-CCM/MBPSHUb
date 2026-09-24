@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Investor Brief — Moyo Bespoke Property Solutions</title>
+<meta name="description" content="Submit your investor brief to Moyo Bespoke Property Solutions for a private property sourcing consultation.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<meta name="theme-color" content="#0A1B3D">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%23050D1C'/><text x='90' y='124' text-anchor='middle' font-family='Georgia, serif' font-size='95' font-weight='500' fill='%23C8A24F' letter-spacing='2'>M</text></svg>">
+
+<style>
+:root {
+  --royal-blue:   #0A1B3D;
+  --royal-blue-2: #102752;
+  --royal-blue-3: #173D7A;
+  --midnight:     #050D1C;
+  --midnight-2:   #081427;
+  --emerald:      #0F8B6D;
+  --gold:         #C8A24F;
+  --gold-light:   #E2C37B;
+  --gold-dark:    #7A5A32;
+  --cream:        #FAF4E4;
+  --cream-2:      #F3ECD5;
+  --cream-3:      #EBE2C0;
+  --cream-border: rgba(200,162,79,0.22);
+  --text-dark:    #101828;
+  --text-mid:     #344054;
+  --text-soft:    #667085;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --shadow-luxe:  0 20px 50px rgba(0,0,0,0.20);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--midnight-2);
+  color: var(--text-dark);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  background:
+    linear-gradient(rgba(4,10,20,0.85), rgba(4,10,20,0.95)),
+    url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=2400&q=80") center/cover no-repeat;
+  z-index: -5;
+}
+body::after {
+  content: "";
+  position: fixed;
+  width: 900px; height: 900px;
+  top: -300px; right: -200px;
+  background: radial-gradient(circle, rgba(44,99,199,0.28), transparent 70%);
+  filter: blur(120px);
+  z-index: -4;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: none; }
+
+/* ── Header ──────────────────────────────────────────────────────── */
+.header {
+  padding: 22px 6vw;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.brand {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--font-display);
+  color: var(--gold);
+  font-size: 22px;
+  letter-spacing: 0.22em;
+  font-weight: 500;
+}
+.brand-mark {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: var(--midnight);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 600; font-size: 18px;
+  box-shadow: 0 6px 18px rgba(200,162,79,0.25);
+}
+.header-back {
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+.header-back:hover { color: var(--gold-light); }
+
+/* ── Layout ──────────────────────────────────────────────────────── */
+.shell {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 6vw 80px;
+}
+.intro {
+  text-align: center;
+  margin: 40px 0 50px;
+  color: rgba(255,255,255,0.85);
+}
+.intro-tag {
+  display: inline-block;
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.intro h1 {
+  font-family: var(--font-display);
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.intro h1 em { color: var(--gold-light); font-style: italic; }
+.intro p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ── Progress bar ────────────────────────────────────────────────── */
+.progress-wrap {
+  margin-bottom: 28px;
+  text-align: center;
+}
+.progress-bar {
+  height: 3px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-light));
+  border-radius: 99px;
+  transition: width 500ms var(--ease);
+  width: 0%;
+}
+.progress-meta {
+  font-size: 11.5px;
+  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.progress-meta strong { color: var(--gold-light); margin-right: 4px; }
+
+/* ── Card / steps ────────────────────────────────────────────────── */
+.card {
+  background: var(--cream);
+  border: 1px solid var(--cream-border);
+  border-radius: 24px;
+  padding: 44px 48px;
+  box-shadow: var(--shadow-luxe);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  width: 200px; height: 200px;
+  background: radial-gradient(circle at top right, rgba(200,162,79,0.15), transparent 70%);
+  pointer-events: none;
+}
+.step { display: none; animation: fadeIn 480ms var(--ease); }
+.step.active { display: block; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+.step h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--royal-blue);
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+.step h2 em { color: var(--gold-dark); font-style: italic; }
+.step-sub {
+  color: var(--text-soft);
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+/* ── Form controls ───────────────────────────────────────────────── */
+.fg { margin-bottom: 20px; }
+.fg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+.fg label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-soft);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.fg label .req { color: var(--gold-dark); margin-left: 2px; }
+.fg label .hint {
+  display: block;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-soft);
+  margin-top: 3px;
+  font-size: 11.5px;
+  opacity: 0.85;
+}
+.fg input, .fg select, .fg textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.85);
+  border: 1px solid var(--cream-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--text-dark);
+  outline: none;
+  transition: all 240ms var(--ease);
+}
+.fg input::placeholder, .fg textarea::placeholder { color: var(--text-soft); opacity: 0.6; }
+.fg input:focus, .fg select:focus, .fg textarea:focus {
+  border-color: var(--gold);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(200,162,79,0.15);
+}
+.fg textarea { min-height: 110px; resize: vertical; line-height: 1.6; }
+.fg select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23667085' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 38px;
+  cursor: pointer;
+}
+
+/* Radio chip group */
+.chip-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.chip {
+  display: block;
+  cursor: pointer;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.65);
+  border: 1.5px solid var(--cream-border);
+  font-size: 13.5px;
+  color: var(--text-mid);
+  transition: all 220ms var(--ease);
+  text-align: left;
+  position: relative;
+}
+.chip input { display: none; }
+.chip-title { font-weight: 600; color: var(--royal-blue); display: block; margin-bottom: 2px; font-size: 14px; }
+.chip-sub { font-size: 12px; color: var(--text-soft); }
+.chip:hover { border-color: rgba(200,162,79,0.5); background: rgba(255,255,255,0.85); }
+.chip.selected {
+  border-color: var(--gold);
+  background: rgba(200,162,79,0.12);
+  box-shadow: 0 0 0 1px var(--gold);
+}
+.chip.selected .chip-title { color: var(--gold-dark); }
+
+/* ── Footer controls ─────────────────────────────────────────────── */
+.controls {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  transition: all 240ms var(--ease);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: var(--midnight);
+  box-shadow: 0 12px 30px rgba(200,162,79,0.28);
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(200,162,79,0.4);
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+}
+.btn-ghost {
+  background: rgba(255,255,255,0.7);
+  border-color: var(--cream-border);
+  color: var(--royal-blue);
+}
+.btn-ghost:hover { background: #fff; border-color: var(--gold); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
+
+/* ── Review step ─────────────────────────────────────────────────── */
+.review-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  font-size: 14px;
+  gap: 16px;
+}
+.review-row:last-child { border-bottom: none; }
+.review-row .lbl { color: var(--text-soft); flex-shrink: 0; max-width: 50%; }
+.review-row .val { color: var(--royal-blue); font-weight: 600; text-align: right; word-break: break-word; max-width: 50%; }
+.review-row .val.empty { color: var(--text-soft); font-style: italic; font-weight: 400; }
+.review-group {
+  margin-bottom: 28px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 14px;
+  padding: 16px 20px;
+  border: 1px solid var(--cream-border);
+}
+.review-group h4 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--gold-dark);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* ── Success screen ──────────────────────────────────────────────── */
+.success {
+  text-align: center;
+  padding: 30px 20px 20px;
+}
+.success-icon {
+  width: 88px; height: 88px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: #fff;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 40px;
+  margin-bottom: 26px;
+  box-shadow: 0 16px 40px rgba(200,162,79,0.4);
+  animation: pop 600ms var(--ease);
+}
+@keyframes pop {
+  0%   { transform: scale(0.3); opacity: 0; }
+  60%  { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.success h2 {
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--royal-blue);
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+.success h2 em { color: var(--gold-dark); font-style: italic; }
+.success p {
+  color: var(--text-mid);
+  font-size: 15px;
+  max-width: 500px;
+  margin: 0 auto 28px;
+  line-height: 1.75;
+}
+.success-next {
+  text-align: left;
+  background: rgba(10,27,61,0.05);
+  border-left: 3px solid var(--gold);
+  padding: 18px 22px;
+  border-radius: 0 12px 12px 0;
+  margin: 24px auto 32px;
+  max-width: 480px;
+}
+.success-next h5 {
+  font-size: 11px;
+  color: var(--gold-dark);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.success-next ol { padding-left: 18px; }
+.success-next li { color: var(--text-mid); font-size: 13.5px; margin-bottom: 6px; line-height: 1.6; }
+.success-actions {
+  display: flex; gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Inline error */
+.error {
+  color: #B91C1C;
+  font-size: 12px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+.fg input.invalid, .fg select.invalid, .fg textarea.invalid {
+  border-color: #DC2626 !important;
+  background: rgba(220,38,38,0.04);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px 50px;
+  color: rgba(255,255,255,0.4);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+footer a { color: var(--gold-light); }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .card { padding: 32px 24px; border-radius: 18px; }
+  .fg-row { grid-template-columns: 1fr; gap: 14px; }
+  .chip-group { grid-template-columns: 1fr; }
+  .step h2 { font-size: 26px; }
+  .intro h1 { font-size: 32px; }
+  .controls { flex-direction: column-reverse; }
+  .controls .btn { width: 100%; justify-content: center; }
+}
+
+/* Print-friendly */
+@media print {
+  body::before, body::after { display: none; }
+  body { background: #fff; }
+  .header, .controls, .progress-wrap, .intro { display: none; }
+  .card { box-shadow: none; border: 1px solid #ccc; }
+  .step { display: block !important; page-break-after: always; }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <a href="MBPS-Website.html" class="brand">
+    <span class="brand-mark">M</span>
+    <span>MBPS</span>
+  </a>
+  <a href="MBPS-Website.html" class="header-back">← Back to site</a>
+</header>
+
+<div class="shell">
+
+  <!-- Intro -->
+  <div class="intro">
+    <span class="intro-tag">Private Investor Brief</span>
+    <h1>Tell us about your <em>investment goals.</em></h1>
+    <p>This short brief gives Carean what's needed to assess fit and prepare for your discovery call. Everything you share stays confidential to Moyo Bespoke Property Solutions.</p>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-wrap" id="progress">
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="progress-meta"><strong id="progress-step">Step 1</strong>of 5 · About You</div>
+  </div>
+
+  <!-- Card containing all the steps -->
+  <div class="card">
+    <form id="form" novalidate>
+
+      <!-- STEP 1 — About You -->
+      <div class="step active" data-step="1">
+        <h2>About <em>you.</em></h2>
+        <p class="step-sub">A few details so we can address you properly.</p>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Full Name <span class="req">*</span></label>
+            <input type="text" name="name" placeholder="e.g. James Okafor" required>
+          </div>
+          <div class="fg">
+            <label>Company / Entity <span class="hint">If purchasing through a Ltd company</span></label>
+            <input type="text" name="company" placeholder="e.g. Okafor Investments Ltd">
+          </div>
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Email <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="email@example.com" required>
+          </div>
+          <div class="fg">
+            <label>Phone <span class="req">*</span></label>
+            <input type="tel" name="phone" placeholder="+44 7700 000000" required>
+          </div>
+        </div>
+
+        <div class="fg">
+          <label>How did you hear about MBPS?</label>
+          <select name="source">
+            <option value="">Select...</option>
+            <option>Referral from a client</option>
+            <option>Instagram / LinkedIn</option>
+            <option>Google search</option>
+            <option>Event / Networking</option>
+            <option>Press / Article</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- STEP 2 — Goals -->
+      <div class="step" data-step="2">
+        <h2>Your <em>goals.</em></h2>
+        <p class="step-sub">What does success look like for the next 12 months?</p>
+
+        <div class="fg">
+          <label>Primary investment goal <span class="req">*</span></label>
+          <div class="chip-group" data-chip-group="goal">
+            <label class="chip"><input type="radio" name="goal" value="Monthly income / cash flow" required><span class="chip-title">Monthly Income</span><span class="chip-sub">Cash flow as a priority</span></label>
+            <label class="chip"><input type="radio" name="goal" value="Capital growth"><span class="chip-title">Capital Growth</span><span class="chip-sub">Long-term appreciation</span></label>
+            <label class="chip"><input type="radio" name="goal" value="Build a portfolio"><span class="chip-title">Portfolio Building</span><span class="chip-sub">Scale a property book</span></label>
+            <label class="chip"><input type="radio" name="goal" value="Pension alternative"><span class="chip-title">Pension Alternative</span><span class="chip-sub">Retirement income</span></label>
+          </div>
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Experience level</label>
+            <select name="experience">
+              <option value="">Select...</option>
+              <option>First-time investor</option>
+              <option>1–2 properties</option>
+              <option>3–5 properties</option>
+              <option>6–10 properties</option>
+              <option>10+ properties</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Target deals in next 12 months</label>
+            <input type="text" name="target" placeholder="e.g. 2–3 properties">
+          </div>
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Decision timeline</label>
+            <select name="timeline">
+              <option value="">Select...</option>
+              <option>ASAP — ready now</option>
+              <option>1–3 months</option>
+              <option>3–6 months</option>
+              <option>6–12 months</option>
+              <option>Exploring options</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Hands-on or hands-off?</label>
+            <select name="management">
+              <option value="">Select...</option>
+              <option>Fully hands-off (managed)</option>
+              <option>Semi hands-off</option>
+              <option>Actively involved</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 3 — Financial Position -->
+      <div class="step" data-step="3">
+        <h2>Financial <em>position.</em></h2>
+        <p class="step-sub">High-level only — no documents required at this stage.</p>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Available budget (£) <span class="req">*</span></label>
+            <input type="text" name="budget" placeholder="e.g. £100,000 or 100k" required>
+          </div>
+          <div class="fg">
+            <label>Minimum yield target</label>
+            <input type="text" name="yield" placeholder="e.g. 7%">
+          </div>
+        </div>
+
+        <div class="fg">
+          <label>Finance method</label>
+          <div class="chip-group" data-chip-group="finance">
+            <label class="chip"><input type="radio" name="finance" value="Cash buyer"><span class="chip-title">Cash Buyer</span><span class="chip-sub">No mortgage required</span></label>
+            <label class="chip"><input type="radio" name="finance" value="Mortgage / BTL"><span class="chip-title">Mortgage / BTL</span><span class="chip-sub">Loan-to-value finance</span></label>
+            <label class="chip"><input type="radio" name="finance" value="Joint Venture"><span class="chip-title">Joint Venture</span><span class="chip-sub">Partnered investment</span></label>
+            <label class="chip"><input type="radio" name="finance" value="Mix of cash and finance"><span class="chip-title">Hybrid</span><span class="chip-sub">Cash + finance combined</span></label>
+          </div>
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Proof of funds available?</label>
+            <select name="pof">
+              <option value="">Select...</option>
+              <option>Yes — ready to share</option>
+              <option>Yes — solicitor's letter available</option>
+              <option>In progress</option>
+              <option>Not yet</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Purchasing entity</label>
+            <select name="entity">
+              <option value="">Select...</option>
+              <option>Personal name</option>
+              <option>Limited company (SPV)</option>
+              <option>Both / undecided</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 4 — Property Criteria -->
+      <div class="step" data-step="4">
+        <h2>Property <em>criteria.</em></h2>
+        <p class="step-sub">The kind of opportunities we should be sourcing for you.</p>
+
+        <div class="fg">
+          <label>Preferred strategy <span class="req">*</span></label>
+          <div class="chip-group" data-chip-group="strategy">
+            <label class="chip"><input type="radio" name="strategy" value="Buy-to-Let" required><span class="chip-title">Buy-to-Let</span><span class="chip-sub">Single-let, long-term</span></label>
+            <label class="chip"><input type="radio" name="strategy" value="HMO"><span class="chip-title">HMO</span><span class="chip-sub">Room-by-room let</span></label>
+            <label class="chip"><input type="radio" name="strategy" value="Serviced Accommodation"><span class="chip-title">Serviced Accommodation</span><span class="chip-sub">Short stays</span></label>
+            <label class="chip"><input type="radio" name="strategy" value="Commercial / Mixed-use"><span class="chip-title">Commercial</span><span class="chip-sub">Conversion / mixed-use</span></label>
+            <label class="chip"><input type="radio" name="strategy" value="Open"><span class="chip-title">Open</span><span class="chip-sub">Present the best deal</span></label>
+          </div>
+        </div>
+
+        <div class="fg">
+          <label>Target locations <span class="hint">Comma-separated — towns, cities, postcodes</span></label>
+          <input type="text" name="locations" placeholder="e.g. Birmingham, Manchester, Bicester OX26">
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label>Property types of interest</label>
+            <input type="text" name="types" placeholder="e.g. Terraced, HMO, Flats">
+          </div>
+          <div class="fg">
+            <label>Refurbishment appetite</label>
+            <select name="refurb">
+              <option value="">Select...</option>
+              <option>Ready to let only</option>
+              <option>Light refurb acceptable</option>
+              <option>Full refurb / development acceptable</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5 — Review & Submit -->
+      <div class="step" data-step="5">
+        <h2>Review &amp; <em>submit.</em></h2>
+        <p class="step-sub">Confirm everything looks right. You can edit any answer before sending.</p>
+
+        <div id="review"></div>
+
+        <div class="fg">
+          <label>Anything else we should know? <span class="hint">Optional context — concerns, constraints, deadlines</span></label>
+          <textarea name="notes" placeholder="Anything else worth sharing before we speak..."></textarea>
+        </div>
+
+        <div class="fg" style="font-size:12px;color:var(--text-soft);background:rgba(10,27,61,0.05);padding:14px 18px;border-radius:10px;line-height:1.6">
+          By submitting, you agree to MBPS reviewing your brief and contacting you within 48 hours to discuss next steps. We will not share your details with third parties. Submissions are stored securely.
+        </div>
+      </div>
+
+      <!-- SUCCESS SCREEN -->
+      <div class="step" data-step="success">
+        <div class="success">
+          <div class="success-icon">✓</div>
+          <h2>Thank you, <em><span id="success-name">investor</span>.</em></h2>
+          <p>Your brief has been received. Carean will personally review it and reach out within 48 hours to schedule your private discovery call.</p>
+
+          <div class="success-next">
+            <h5>What happens next</h5>
+            <ol>
+              <li>Carean reviews your brief personally (within 48 hours).</li>
+              <li>You'll receive a calendar invite for a 30-minute discovery call — no fee, no obligation.</li>
+              <li>If MBPS is the right fit, we send the Deal Sourcing Agreement and onboarding pack.</li>
+              <li>Sourcing begins once the DSA is signed and the £350 engagement deposit is received.</li>
+            </ol>
+          </div>
+
+          <div class="success-actions">
+            <button type="button" class="btn btn-gold" onclick="window.print()">🖨 Print / Save PDF</button>
+            <button type="button" class="btn btn-ghost" id="btn-email-copy" onclick="emailCopyToInvestor()">✉️ Email a copy to my inbox</button>
+            <a href="book-consultation.html" class="btn btn-ghost">📅 Book my discovery call</a>
+            <a href="MBPS-Website.html" class="btn btn-ghost">← Back to site</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls (hidden on success) -->
+      <div class="controls" id="controls">
+        <button type="button" class="btn btn-ghost" id="btn-back">← Back</button>
+        <button type="button" class="btn btn-gold" id="btn-next">Continue →</button>
+        <button type="button" class="btn btn-gold" id="btn-submit" style="display:none">Submit Brief →</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<footer>
+  © <span id="year">2026</span> Moyo Bespoke Property Solutions · A confidential brief, treated as such ·
+  <a href="mailto:info@moyobespoke.com">info@moyobespoke.com</a>
+</footer>
+
+<script src="mbps-cloud.js"></script>
+<script>
+// ═══════════════════════════════════════════════════════════════════
+// MBPS Investor Brief — multi-step form with CRM hand-off
+// ═══════════════════════════════════════════════════════════════════
+
+const CRM_STORAGE_KEY = 'mbps_crm_v2';
+const FORM_BACKUP_KEY = 'mbps_brief_drafts_v1';
+
+const STEPS = [
+  { num: 1, label: 'About You',          required: ['name','email','phone'] },
+  { num: 2, label: 'Goals',              required: ['goal'] },
+  { num: 3, label: 'Financial Position', required: ['budget'] },
+  { num: 4, label: 'Property Criteria',  required: ['strategy'] },
+  { num: 5, label: 'Review & Submit',    required: [] }
+];
+
+let currentStep = 1;
+const form = document.getElementById('form');
+
+// ── Helpers ──────────────────────────────────────────────────────
+function $(s) { return document.querySelector(s); }
+function $$(s) { return [...document.querySelectorAll(s)]; }
+function val(name) { const el = form.querySelector(`[name="${name}"]`); return el ? el.value.trim() : ''; }
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
+
+// Parse budgets like "£100,000" or "100k" or "1.5m"
+function parseBudget(txt) {
+  if (!txt) return null;
+  const clean = txt.toLowerCase().replace(/[£,\s]/g, '');
+  if (clean.endsWith('k')) return parseFloat(clean) * 1000;
+  if (clean.endsWith('m')) return parseFloat(clean) * 1000000;
+  const n = parseFloat(clean);
+  return isNaN(n) ? null : n;
+}
+function parseYield(txt) {
+  if (!txt) return null;
+  const m = txt.match(/(\d+(?:\.\d+)?)/);
+  return m ? parseFloat(m[1]) : null;
+}
+
+// ── Chip group logic (radio with styled cards) ───────────────────
+$$('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const input = chip.querySelector('input');
+    if (!input) return;
+    chip.parentElement.querySelectorAll('.chip').forEach(c => c.classList.remove('selected'));
+    chip.classList.add('selected');
+    input.checked = true;
+  });
+});
+
+// ── Step navigation ──────────────────────────────────────────────
+function showStep(n) {
+  $$('.step').forEach(s => s.classList.remove('active'));
+  const target = $(`.step[data-step="${n}"]`);
+  if (target) target.classList.add('active');
+  currentStep = n;
+  updateProgress();
+  updateButtons();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateProgress() {
+  if (currentStep === 'success') {
+    $('#progress').style.display = 'none';
+    return;
+  }
+  $('#progress').style.display = 'block';
+  const idx = STEPS.findIndex(s => s.num === currentStep);
+  const pct = ((idx + 1) / STEPS.length) * 100;
+  $('#progress-fill').style.width = pct + '%';
+  $('#progress-step').textContent = `Step ${currentStep}`;
+  $('#progress').querySelector('.progress-meta').innerHTML =
+    `<strong id="progress-step">Step ${currentStep}</strong>of ${STEPS.length} · ${STEPS[idx].label}`;
+}
+
+function updateButtons() {
+  const back = $('#btn-back');
+  const next = $('#btn-next');
+  const submit = $('#btn-submit');
+  const controls = $('#controls');
+
+  if (currentStep === 'success') { controls.style.display = 'none'; return; }
+  controls.style.display = 'flex';
+
+  back.style.visibility = currentStep === 1 ? 'hidden' : 'visible';
+  if (currentStep === 5) {
+    next.style.display = 'none';
+    submit.style.display = 'inline-flex';
+  } else {
+    next.style.display = 'inline-flex';
+    submit.style.display = 'none';
+  }
+}
+
+// ── Validation per step ──────────────────────────────────────────
+function validateStep() {
+  if (currentStep === 'success') return true;
+  const step = STEPS.find(s => s.num === currentStep);
+  let ok = true;
+  step.required.forEach(name => {
+    const el = form.querySelector(`[name="${name}"]`);
+    if (!el) return;
+    if (el.type === 'radio') {
+      const checked = form.querySelector(`[name="${name}"]:checked`);
+      if (!checked) {
+        ok = false;
+        const group = form.querySelector(`[data-chip-group="${name}"]`);
+        if (group) {
+          group.style.outline = '2px solid #DC2626';
+          group.style.outlineOffset = '4px';
+          group.style.borderRadius = '14px';
+          setTimeout(() => { group.style.outline = 'none'; }, 1800);
+        }
+      }
+    } else {
+      if (!el.value.trim()) {
+        ok = false;
+        el.classList.add('invalid');
+        setTimeout(() => el.classList.remove('invalid'), 1800);
+      } else if (el.type === 'email' && !/\S+@\S+\.\S+/.test(el.value)) {
+        ok = false;
+        el.classList.add('invalid');
+        setTimeout(() => el.classList.remove('invalid'), 1800);
+      }
+    }
+  });
+  return ok;
+}
+
+// ── Build review summary ─────────────────────────────────────────
+function buildReview() {
+  const data = collectFormData();
+  const groups = [
+    { title: 'About You', fields: [
+      ['Full name', data.name], ['Company', data.company],
+      ['Email', data.email], ['Phone', data.phone], ['Heard via', data.source]
+    ]},
+    { title: 'Goals', fields: [
+      ['Primary goal', data.goal], ['Experience', data.experience],
+      ['Target (12 months)', data.target], ['Timeline', data.timeline], ['Management', data.management]
+    ]},
+    { title: 'Financial Position', fields: [
+      ['Budget', data.budget], ['Min yield', data.yield],
+      ['Finance method', data.finance], ['Proof of funds', data.pof], ['Entity', data.entity]
+    ]},
+    { title: 'Property Criteria', fields: [
+      ['Strategy', data.strategy], ['Locations', data.locations],
+      ['Types', data.types], ['Refurb appetite', data.refurb]
+    ]}
+  ];
+  $('#review').innerHTML = groups.map(g => `
+    <div class="review-group">
+      <h4>${g.title}</h4>
+      ${g.fields.map(([lbl, val]) => `
+        <div class="review-row">
+          <span class="lbl">${lbl}</span>
+          <span class="val ${!val ? 'empty' : ''}">${val || '— not provided'}</span>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+// ── Collect all form data ────────────────────────────────────────
+function collectFormData() {
+  const data = {};
+  ['name','company','email','phone','source','experience','target','timeline','management',
+   'budget','yield','pof','entity','locations','types','refurb','notes'].forEach(k => data[k] = val(k));
+  ['goal','finance','strategy'].forEach(k => {
+    const checked = form.querySelector(`[name="${k}"]:checked`);
+    data[k] = checked ? checked.value : '';
+  });
+  return data;
+}
+
+// ── Auto-save draft to localStorage on every change ──────────────
+function saveDraft() {
+  try { localStorage.setItem(FORM_BACKUP_KEY, JSON.stringify(collectFormData())); } catch {}
+}
+form.addEventListener('input', saveDraft);
+form.addEventListener('change', saveDraft);
+
+// Restore draft on load
+function restoreDraft() {
+  try {
+    const raw = localStorage.getItem(FORM_BACKUP_KEY);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    Object.entries(data).forEach(([k, v]) => {
+      if (!v) return;
+      const el = form.querySelector(`[name="${k}"]`);
+      if (!el) return;
+      if (el.type === 'radio') {
+        const radio = form.querySelector(`[name="${k}"][value="${v}"]`);
+        if (radio) { radio.checked = true; radio.closest('.chip')?.classList.add('selected'); }
+      } else {
+        el.value = v;
+      }
+    });
+  } catch {}
+}
+
+// ── Submit handler — writes to CRM localStorage + clears draft ───
+async function submitBrief() {
+  if (!validateStep()) return;
+  const data = collectFormData();
+
+  // Build investor record matching CRM schema
+  const onboarding = {
+    capturedAt: new Date().toISOString(),
+    source: 'investor-brief',
+    general: {
+      source: data.source, goal: data.goal, experience: data.experience,
+      target: data.target, timeline: data.timeline, management: data.management,
+      budget: data.budget, finance: data.finance, pof: data.pof,
+      entity: data.entity, locations: data.locations, types: data.types,
+      refurb: data.refurb, notes: data.notes
+    },
+    strategy: data.strategy
+  };
+
+  // Detect primary type from strategy
+  let primaryType = 'Investor';
+  if (data.strategy === 'HMO') primaryType = 'HMO';
+  else if (data.strategy === 'Serviced Accommodation') primaryType = 'Serviced Accommodation';
+  else if (data.strategy === 'Commercial / Mixed-use') primaryType = 'Commercial';
+  else if (data.strategy === 'Buy-to-Let') primaryType = 'Buy-to-Let';
+
+  const investor = {
+    id: uid(),
+    name: data.name,
+    company: data.company,
+    email: data.email,
+    phone: data.phone,
+    type: primaryType,
+    status: 'Prospect',
+    budget: parseBudget(data.budget),
+    yield: parseYield(data.yield),
+    locations: data.locations,
+    refurb: data.refurb,
+    source: data.source || 'Website investor brief',
+    notes: data.notes || '',
+    agreementSigned: false,
+    depositPaid: false,
+    depositAmount: 350,
+    onboarding,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  };
+
+  // Send to the shared MBPS workspace — appears in the CRM as a new prospect + task
+  const btn = document.getElementById('btn-submit');
+  const label = btn ? btn.textContent : '';
+  if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+  try {
+    await mbpsRpc('submit_investor_brief', { p: investor });
+  } catch (err) {
+    if (btn) { btn.disabled = false; btn.textContent = label; }
+    alert(err.message + ' Your answers are saved on this device, so you can try again.');
+    return;
+  }
+  if (btn) { btn.disabled = false; btn.textContent = label; }
+
+  // Clear draft, show success
+  try { localStorage.removeItem(FORM_BACKUP_KEY); } catch {}
+
+  $('#success-name').textContent = (data.name.split(' ')[0] || 'investor');
+  showStep('success');
+}
+
+// ── Wire up navigation buttons ───────────────────────────────────
+$('#btn-next').addEventListener('click', () => {
+  if (!validateStep()) return;
+  const next = currentStep + 1;
+  if (next === 5) buildReview();
+  showStep(next);
+});
+$('#btn-back').addEventListener('click', () => {
+  if (currentStep > 1) showStep(currentStep - 1);
+});
+$('#btn-submit').addEventListener('click', submitBrief);
+
+// Enter key advances step (except in textareas)
+form.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && e.target.tagName !== 'TEXTAREA') {
+    e.preventDefault();
+    if (currentStep === 5) submitBrief();
+    else $('#btn-next').click();
+  }
+});
+
+// ── Email a copy of the submitted brief to the investor ─────────
+// Composes a mailto: addressed TO their email, CC info@moyobespoke.com,
+// with the full brief content in the body. Opens their default mail client.
+let _lastSubmittedData = null;
+function emailCopyToInvestor() {
+  const d = _lastSubmittedData || collectFormData();
+  if (!d.email) { alert('Email address not found — please re-enter on Step 1.'); return; }
+
+  const lines = [
+    `Investor Brief — Moyo Bespoke Property Solutions`,
+    `Submitted: ${new Date().toLocaleString('en-GB')}`,
+    ``,
+    `─── About You ───`,
+    `Name:          ${d.name}`,
+    `Company:       ${d.company || '—'}`,
+    `Email:         ${d.email}`,
+    `Phone:         ${d.phone}`,
+    `Heard via:     ${d.source || '—'}`,
+    ``,
+    `─── Goals ───`,
+    `Primary goal:  ${d.goal || '—'}`,
+    `Experience:    ${d.experience || '—'}`,
+    `12-mo target:  ${d.target || '—'}`,
+    `Timeline:      ${d.timeline || '—'}`,
+    `Management:    ${d.management || '—'}`,
+    ``,
+    `─── Financial Position ───`,
+    `Budget:        ${d.budget || '—'}`,
+    `Min yield:     ${d.yield || '—'}`,
+    `Finance:       ${d.finance || '—'}`,
+    `Proof of funds:${d.pof || '—'}`,
+    `Entity:        ${d.entity || '—'}`,
+    ``,
+    `─── Property Criteria ───`,
+    `Strategy:      ${d.strategy || '—'}`,
+    `Locations:     ${d.locations || '—'}`,
+    `Types:         ${d.types || '—'}`,
+    `Refurb:        ${d.refurb || '—'}`,
+    ``,
+    `─── Notes ───`,
+    d.notes || '(none)',
+    ``,
+    `─────────────────────────────────────`,
+    `MBPS will personally review your brief and reach out within 48 hours.`,
+    ``,
+    `Contact:`,
+    `📞 07447 394 309`,
+    `✉️ info@moyobespoke.com`,
+    `🌐 https://www.moyobespoke.com`,
+    `Moyo Bespoke Property Solutions Ltd · Company No. 16011904 · Cardiff, UK`
+  ].join('\r\n');
+
+  const subject = `Your MBPS Investor Brief — ${d.name}`;
+  const url =
+    'mailto:' + encodeURIComponent(d.email) +
+    '?cc=' + encodeURIComponent('info@moyobespoke.com') +
+    '&subject=' + encodeURIComponent(subject) +
+    '&body=' + encodeURIComponent(lines);
+  // Open in same tab so the email client is invoked
+  window.location.href = url;
+}
+
+// Capture the latest submission so emailCopyToInvestor still works after the
+// form is hidden by the success screen
+const _origSubmitBrief = submitBrief;
+submitBrief = function() {
+  _lastSubmittedData = collectFormData();
+  _origSubmitBrief();
+};
+
+// ── Boot ─────────────────────────────────────────────────────────
+restoreDraft();
+showStep(1);
+$('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

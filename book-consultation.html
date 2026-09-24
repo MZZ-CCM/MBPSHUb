@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Book a Discovery Call — Moyo Bespoke Property Solutions</title>
+<meta name="description" content="Schedule a private 30-minute discovery call with Carean Moyo, founder of MBPS.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<meta name="theme-color" content="#0A1B3D">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%23050D1C'/><text x='90' y='124' text-anchor='middle' font-family='Georgia, serif' font-size='95' font-weight='500' fill='%23C8A24F' letter-spacing='2'>M</text></svg>">
+
+<style>
+:root {
+  --royal-blue:   #0A1B3D;
+  --royal-blue-2: #102752;
+  --royal-blue-3: #173D7A;
+  --midnight:     #050D1C;
+  --midnight-2:   #081427;
+  --emerald:      #0F8B6D;
+  --gold:         #C8A24F;
+  --gold-light:   #E2C37B;
+  --gold-dark:    #7A5A32;
+  --cream:        #FAF4E4;
+  --cream-2:      #F3ECD5;
+  --cream-3:      #EBE2C0;
+  --cream-border: rgba(200,162,79,0.22);
+  --text-dark:    #101828;
+  --text-mid:     #344054;
+  --text-soft:    #667085;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --shadow-luxe:  0 20px 50px rgba(0,0,0,0.20);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--midnight-2);
+  color: var(--text-dark);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  background:
+    linear-gradient(rgba(4,10,20,0.85), rgba(4,10,20,0.95)),
+    url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=2400&q=80") center/cover no-repeat;
+  z-index: -5;
+}
+body::after {
+  content: "";
+  position: fixed;
+  width: 900px; height: 900px;
+  top: -300px; right: -200px;
+  background: radial-gradient(circle, rgba(44,99,199,0.28), transparent 70%);
+  filter: blur(120px);
+  z-index: -4;
+  pointer-events: none;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: none; }
+
+/* Header */
+.header {
+  padding: 22px 6vw;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.brand {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--font-display);
+  color: var(--gold);
+  font-size: 22px;
+  letter-spacing: 0.22em;
+  font-weight: 500;
+}
+.brand-mark {
+  width: 42px; height: 42px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--royal-blue-2), var(--midnight));
+  border: 1px solid rgba(200,162,79,0.45);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.45);
+}
+.brand-mark::after {
+  content: "";
+  position: absolute;
+  bottom: -1px; left: 50%; transform: translateX(-50%);
+  width: 60%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+.brand-mark svg { width: 80%; height: 80%; }
+.header-back {
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+.header-back:hover { color: var(--gold-light); }
+
+/* Layout */
+.shell {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px 6vw 80px;
+}
+.intro {
+  text-align: center;
+  margin: 40px 0 50px;
+  color: rgba(255,255,255,0.85);
+}
+.intro-tag {
+  display: inline-block;
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.intro h1 {
+  font-family: var(--font-display);
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.intro h1 em { color: var(--gold-light); font-style: italic; }
+.intro p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Progress */
+.progress-wrap { margin-bottom: 28px; text-align: center; }
+.progress-bar { height: 3px; background: rgba(255,255,255,0.06); border-radius: 99px; overflow: hidden; margin-bottom: 14px; }
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-light));
+  border-radius: 99px;
+  transition: width 500ms var(--ease);
+  width: 0%;
+}
+.progress-meta {
+  font-size: 11.5px;
+  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.progress-meta strong { color: var(--gold-light); margin-right: 4px; }
+
+/* Card */
+.card {
+  background: var(--cream);
+  border: 1px solid var(--cream-border);
+  border-radius: 24px;
+  padding: 44px 48px;
+  box-shadow: var(--shadow-luxe);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  width: 200px; height: 200px;
+  background: radial-gradient(circle at top right, rgba(200,162,79,0.15), transparent 70%);
+  pointer-events: none;
+}
+.step { display: none; animation: fadeIn 480ms var(--ease); }
+.step.active { display: block; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+.step h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--royal-blue);
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+.step h2 em { color: var(--gold-dark); font-style: italic; }
+.step-sub {
+  color: var(--text-soft);
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+/* ── Calendar grid ─────────────────────────────────────────────── */
+.cal-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  gap: 12px;
+}
+.cal-toolbar h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--royal-blue);
+}
+.cal-nav {
+  display: flex; gap: 8px;
+}
+.cal-nav button {
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.7);
+  border: 1px solid var(--cream-border);
+  color: var(--royal-blue);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 220ms var(--ease);
+}
+.cal-nav button:hover { background: #fff; border-color: var(--gold); }
+.cal-nav button:disabled { opacity: 0.3; cursor: not-allowed; }
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+.cal-dow {
+  text-align: center;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--text-soft);
+  text-transform: uppercase;
+  padding: 8px 0 4px;
+}
+.cal-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14.5px;
+  color: var(--text-mid);
+  background: rgba(255,255,255,0.4);
+  border: 1px solid var(--cream-border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 220ms var(--ease);
+  font-weight: 500;
+  position: relative;
+}
+.cal-day:hover:not(.disabled):not(.empty) {
+  border-color: var(--gold);
+  background: rgba(255,255,255,0.85);
+  transform: translateY(-1px);
+}
+.cal-day.empty { background: transparent; border: none; cursor: default; }
+.cal-day.disabled {
+  color: var(--text-soft);
+  opacity: 0.35;
+  cursor: not-allowed;
+  background: rgba(255,255,255,0.2);
+}
+.cal-day.today { font-weight: 700; color: var(--royal-blue); }
+.cal-day.today::after {
+  content: "";
+  position: absolute;
+  bottom: 6px; left: 50%;
+  transform: translateX(-50%);
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+.cal-day.selected {
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark)) !important;
+  color: #fff !important;
+  border-color: var(--gold) !important;
+  box-shadow: 0 8px 22px rgba(200,162,79,0.4);
+  font-weight: 700;
+}
+.cal-day.selected::after { background: #fff; }
+
+/* ── Time-slot pills ───────────────────────────────────────────── */
+.slot-section { margin-top: 28px; }
+.slot-section h4 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--royal-blue);
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.slot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 8px;
+}
+.slot {
+  padding: 14px 8px;
+  text-align: center;
+  background: rgba(255,255,255,0.7);
+  border: 1.5px solid var(--cream-border);
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--royal-blue);
+  cursor: pointer;
+  transition: all 200ms var(--ease);
+  letter-spacing: 0.02em;
+}
+.slot:hover { border-color: rgba(200,162,79,0.5); background: rgba(255,255,255,0.95); }
+.slot.selected {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  border-color: var(--gold);
+  color: var(--midnight);
+  box-shadow: 0 8px 22px rgba(200,162,79,0.35);
+}
+.slot.booked { opacity: 0.4; cursor: not-allowed; text-decoration: line-through; }
+
+/* ── Form controls ─────────────────────────────────────────────── */
+.fg { margin-bottom: 18px; }
+.fg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+.fg label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-soft);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.fg label .req { color: var(--gold-dark); margin-left: 2px; }
+.fg label .hint {
+  display: block;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-soft);
+  margin-top: 3px;
+  font-size: 11.5px;
+  opacity: 0.85;
+}
+.fg input, .fg select, .fg textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.85);
+  border: 1px solid var(--cream-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--text-dark);
+  outline: none;
+  transition: all 240ms var(--ease);
+}
+.fg input::placeholder, .fg textarea::placeholder { color: var(--text-soft); opacity: 0.6; }
+.fg input:focus, .fg select:focus, .fg textarea:focus {
+  border-color: var(--gold);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(200,162,79,0.15);
+}
+.fg textarea { min-height: 110px; resize: vertical; line-height: 1.6; }
+.fg select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23667085' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 38px;
+  cursor: pointer;
+}
+.fg input.invalid, .fg select.invalid, .fg textarea.invalid {
+  border-color: #DC2626 !important;
+  background: rgba(220,38,38,0.04);
+}
+
+/* Confirmation banner */
+.confirm-banner {
+  background: linear-gradient(135deg, rgba(200,162,79,0.18), rgba(200,162,79,0.08));
+  border: 1px solid rgba(200,162,79,0.4);
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.confirm-banner-icon {
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.confirm-banner-meta { flex: 1; min-width: 0; }
+.confirm-banner-meta .when {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--royal-blue);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.confirm-banner-meta .sub {
+  font-size: 12px;
+  color: var(--text-soft);
+  margin-top: 2px;
+  letter-spacing: 0.04em;
+}
+
+/* Footer controls */
+.controls {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  transition: all 240ms var(--ease);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: var(--midnight);
+  box-shadow: 0 12px 30px rgba(200,162,79,0.28);
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(200,162,79,0.4);
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+}
+.btn-ghost {
+  background: rgba(255,255,255,0.7);
+  border-color: var(--cream-border);
+  color: var(--royal-blue);
+}
+.btn-ghost:hover { background: #fff; border-color: var(--gold); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
+
+/* Success */
+.success { text-align: center; padding: 30px 20px 20px; }
+.success-icon {
+  width: 88px; height: 88px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: #fff;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 40px;
+  margin-bottom: 26px;
+  box-shadow: 0 16px 40px rgba(200,162,79,0.4);
+  animation: pop 600ms var(--ease);
+}
+@keyframes pop {
+  0%   { transform: scale(0.3); opacity: 0; }
+  60%  { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.success h2 {
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--royal-blue);
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+.success h2 em { color: var(--gold-dark); font-style: italic; }
+.success p {
+  color: var(--text-mid);
+  font-size: 15px;
+  max-width: 500px;
+  margin: 0 auto 28px;
+  line-height: 1.75;
+}
+.success-detail {
+  display: inline-block;
+  background: rgba(10,27,61,0.06);
+  border-left: 3px solid var(--gold);
+  padding: 18px 26px;
+  border-radius: 0 12px 12px 0;
+  margin: 8px auto 24px;
+  text-align: left;
+}
+.success-detail .when {
+  font-family: var(--font-display);
+  font-size: 26px;
+  color: var(--royal-blue);
+  font-weight: 500;
+}
+.success-detail .where {
+  font-size: 12.5px;
+  color: var(--text-soft);
+  margin-top: 4px;
+  letter-spacing: 0.04em;
+}
+.success-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px 50px;
+  color: rgba(255,255,255,0.4);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+footer a { color: var(--gold-light); }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .card { padding: 30px 22px; border-radius: 18px; }
+  .fg-row { grid-template-columns: 1fr; gap: 14px; }
+  .step h2 { font-size: 26px; }
+  .intro h1 { font-size: 32px; }
+  .controls { flex-direction: column-reverse; }
+  .controls .btn { width: 100%; justify-content: center; }
+  .cal-grid { gap: 4px; }
+  .cal-day { font-size: 13px; border-radius: 8px; }
+  .slot { padding: 12px 6px; font-size: 13px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <a href="MBPS-Website.html" class="brand">
+    <span class="brand-mark">
+      <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#E2C37B"/>
+            <stop offset="60%" stop-color="#C8A24F"/>
+            <stop offset="100%" stop-color="#7A5A32"/>
+          </linearGradient>
+        </defs>
+        <g stroke="url(#g)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M 16 32 L 30 18 L 44 32"/>
+          <path d="M 18 32 L 18 46 L 42 46 L 42 32"/>
+          <path d="M 27 46 L 27 37 L 33 37 L 33 46"/>
+          <rect x="21" y="35" width="3.5" height="3.5" rx="0.4"/>
+          <rect x="35.5" y="35" width="3.5" height="3.5" rx="0.4"/>
+        </g>
+        <text x="30" y="16" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="13" font-weight="500" fill="url(#g)" letter-spacing="1">M</text>
+      </svg>
+    </span>
+    <span>MBPS</span>
+  </a>
+  <a href="MBPS-Website.html" class="header-back">← Back to site</a>
+</header>
+
+<div class="shell">
+
+  <div class="intro">
+    <span class="intro-tag">Private Discovery Call</span>
+    <h1>Book your <em>30-minute</em> consultation.</h1>
+    <p>Choose a time that works for you. Carean will personally call you on the number you provide and walk through your goals, capital position and the right next steps.</p>
+  </div>
+
+  <div class="progress-wrap" id="progress">
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="progress-meta"><strong id="progress-step">Step 1</strong>of 3 · Choose a date</div>
+  </div>
+
+  <div class="card">
+
+    <!-- STEP 1: Date + Time -->
+    <div class="step active" data-step="1">
+      <h2>Pick a <em>date.</em></h2>
+      <p class="step-sub">Available Monday–Friday, 9:00am – 6:00pm UK time. Calls run 30 minutes.</p>
+
+      <div class="cal-toolbar">
+        <h3 id="cal-month">Month Year</h3>
+        <div class="cal-nav">
+          <button type="button" id="cal-prev" aria-label="Previous month">‹</button>
+          <button type="button" id="cal-next" aria-label="Next month">›</button>
+        </div>
+      </div>
+
+      <div class="cal-grid" id="cal-grid"></div>
+
+      <div class="slot-section" id="slot-section" style="display:none">
+        <h4 id="slot-heading">Available times</h4>
+        <div class="slot-grid" id="slot-grid"></div>
+      </div>
+    </div>
+
+    <!-- STEP 2: Your details + qualifying questions -->
+    <div class="step" data-step="2">
+      <div class="confirm-banner" id="confirm-banner">
+        <div class="confirm-banner-icon">📅</div>
+        <div class="confirm-banner-meta">
+          <div class="when" id="confirm-when">—</div>
+          <div class="sub">30-minute discovery call · Carean will call you</div>
+        </div>
+      </div>
+
+      <h2>About <em>you.</em></h2>
+      <p class="step-sub">Just enough so Carean can prepare. Everything stays confidential.</p>
+
+      <div class="fg-row">
+        <div class="fg">
+          <label>Full Name <span class="req">*</span></label>
+          <input type="text" name="name" placeholder="e.g. James Okafor" required>
+        </div>
+        <div class="fg">
+          <label>Email <span class="req">*</span></label>
+          <input type="email" name="email" placeholder="email@example.com" required>
+        </div>
+      </div>
+
+      <div class="fg-row">
+        <div class="fg">
+          <label>Phone <span class="req">*</span> <span class="hint">Carean will call this number</span></label>
+          <input type="tel" name="phone" placeholder="+44 7700 000000" required>
+        </div>
+        <div class="fg">
+          <label>How did you hear about MBPS?</label>
+          <select name="source">
+            <option value="">Select...</option>
+            <option>Referral</option>
+            <option>Instagram / LinkedIn</option>
+            <option>Google search</option>
+            <option>Event / Networking</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <h2 style="margin-top:32px;font-size:24px">Briefly, your <em>investment goals.</em></h2>
+      <p class="step-sub">Three quick questions so the call is productive from minute one.</p>
+
+      <div class="fg">
+        <label>What's your primary investment goal? <span class="req">*</span></label>
+        <select name="goal" required>
+          <option value="">Select...</option>
+          <option>Monthly income / cash flow</option>
+          <option>Capital growth</option>
+          <option>Build a portfolio</option>
+          <option>Pension alternative</option>
+          <option>Still exploring</option>
+        </select>
+      </div>
+
+      <div class="fg-row">
+        <div class="fg">
+          <label>Investment strategy of interest</label>
+          <select name="strategy">
+            <option value="">Open / not sure</option>
+            <option>Buy-to-Let</option>
+            <option>HMO</option>
+            <option>Serviced Accommodation</option>
+            <option>Rent to Rent</option>
+            <option>Commercial / Mixed-use</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>Approximate available budget</label>
+          <input type="text" name="budget" placeholder="e.g. £100,000 or 100k">
+        </div>
+      </div>
+
+      <div class="fg">
+        <label>Anything specific you'd like to cover on the call?</label>
+        <textarea name="notes" placeholder="Locations you're focused on, deadlines, finance status, anything that gives Carean useful context..."></textarea>
+      </div>
+
+      <div class="fg" style="font-size:12px;color:var(--text-soft);background:rgba(10,27,61,0.05);padding:14px 18px;border-radius:10px;line-height:1.6">
+        By booking, you agree to Moyo Bespoke Property Solutions contacting you on the number provided at the scheduled time. We'll never share your details with third parties.
+      </div>
+    </div>
+
+    <!-- STEP 3: Confirmation / success -->
+    <div class="step" data-step="3">
+      <div class="success">
+        <div class="success-icon">✓</div>
+        <h2>You're <em>booked</em>, <span id="success-name">investor</span>.</h2>
+        <p>Carean will call you at the time below. A calendar invite and confirmation email have been prepared for you.</p>
+
+        <div class="success-detail">
+          <div class="when" id="success-when">—</div>
+          <div class="where" id="success-where">📞 Carean will call <span id="success-phone">your number</span></div>
+        </div>
+
+        <!-- Zoom / meeting block — only renders when a URL is configured -->
+        <div id="meeting-block" style="display:none;margin:0 auto 24px;max-width:520px;text-align:left;background:linear-gradient(135deg,rgba(15,139,109,0.10),rgba(15,139,109,0.04));border:1px solid rgba(15,139,109,0.3);border-radius:14px;padding:18px 22px">
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:8px">
+            <div style="width:42px;height:42px;border-radius:11px;background:linear-gradient(135deg,#2D8CFF,#1A66C7);color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">🎥</div>
+            <div>
+              <div style="font-family:var(--font-display);font-size:18px;color:var(--royal-blue);font-weight:500" id="meeting-platform-label">Zoom meeting</div>
+              <div style="font-size:11.5px;color:var(--text-soft);letter-spacing:0.04em">Join from any device · no download needed</div>
+            </div>
+          </div>
+          <a id="meeting-join" href="#" target="_blank" rel="noopener" style="display:block;background:linear-gradient(135deg,#2D8CFF,#1A66C7);color:#fff;padding:12px 18px;border-radius:10px;text-align:center;font-weight:700;font-size:14px;letter-spacing:0.02em;box-shadow:0 8px 24px rgba(45,140,255,0.3);margin-top:10px">Join Zoom Call →</a>
+          <div id="meeting-passcode-row" style="display:none;margin-top:8px;font-size:12px;color:var(--text-soft);text-align:center">Passcode: <span id="meeting-passcode" style="color:var(--royal-blue);font-weight:700;letter-spacing:0.1em;font-family:monospace"></span></div>
+          <div style="margin-top:10px;font-size:11px;color:var(--text-soft);text-align:center;line-height:1.5">
+            We've also sent this link in your confirmation email and added it to your calendar invite. Save it now in case the email lands in your spam folder.
+          </div>
+        </div>
+
+        <p style="font-size:13px;color:var(--text-soft)">
+          You'll receive a follow-up reminder 24 hours before the call. If you need to reschedule, reply to the confirmation email or call <a href="tel:+447447394309" style="color:var(--gold-dark);font-weight:600">07447 394 309</a>.
+        </p>
+
+        <div id="email-status" style="margin:0 auto 20px;max-width:520px"></div>
+
+        <div class="success-actions">
+          <a id="ical-link" class="btn btn-gold" download="mbps-discovery-call.ics">📅 Add to Calendar</a>
+          <button type="button" class="btn btn-ghost" onclick="sendConfirmationEmail()">✉️ Send confirmation email</button>
+          <a href="investor-brief.html" class="btn btn-ghost">Complete full brief →</a>
+        </div>
+        <div style="margin-top:18px">
+          <a href="MBPS-Website.html" class="btn btn-ghost">← Back to site</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls" id="controls">
+      <button type="button" class="btn btn-ghost" id="btn-back" style="visibility:hidden">← Back</button>
+      <button type="button" class="btn btn-gold" id="btn-next" disabled>Continue →</button>
+      <button type="button" class="btn btn-gold" id="btn-confirm" style="display:none">Confirm Booking →</button>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © <span id="year">2026</span> Moyo Bespoke Property Solutions · Carean Moyo · Cardiff, UK ·
+  <a href="mailto:info@moyobespoke.com">info@moyobespoke.com</a> ·
+  <a href="tel:+447447394309">07447 394 309</a>
+</footer>
+
+<script src="mbps-cloud.js"></script>
+<script>
+// ═══════════════════════════════════════════════════════════════════
+// MBPS Discovery Call Booking — calendar, slots, CRM write, email
+// ═══════════════════════════════════════════════════════════════════
+
+const CRM_STORAGE_KEY = 'mbps_crm_v2';
+const MBPS_EMAIL = 'info@moyobespoke.com';
+const MBPS_PHONE = '07447 394 309';
+
+// Read meeting platform + URL set in the CRM (Settings → Consultation Meeting Link).
+// Falls back to phone-only mode if unset.
+function readMeetingConfig() {
+  try {
+    const raw = localStorage.getItem(CRM_STORAGE_KEY);
+    if (!raw) return { provider: '', url: '', passcode: '' };
+    const db = JSON.parse(raw);
+    const s = (db && db.settings) || {};
+    return {
+      provider: s.meetingProvider || 'Zoom',
+      url: s.meetingUrl || '',
+      passcode: s.meetingPasscode || ''
+    };
+  } catch { return { provider: '', url: '', passcode: '' }; }
+}
+// Meeting link and email settings are returned by the server after a successful booking
+let MEETING = { provider: '', url: '', passcode: '' };
+
+// Read EmailJS config — when set, emails send automatically with no user interaction
+function readEmailJSConfig() {
+  try {
+    const raw = localStorage.getItem(CRM_STORAGE_KEY);
+    if (!raw) return null;
+    const db = JSON.parse(raw);
+    const ej = (db && db.settings && db.settings.emailjs) || null;
+    if (!ej || !ej.publicKey || !ej.serviceId || !ej.clientTemplateId) return null;
+    return ej;
+  } catch { return null; }
+}
+let EJ = null;
+
+// Send via EmailJS REST API (no SDK needed) — returns true on success
+async function emailjsSend(templateId, params) {
+  if (!EJ) throw new Error('EmailJS not configured');
+  const res = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      service_id: EJ.serviceId,
+      template_id: templateId,
+      user_id: EJ.publicKey,
+      template_params: params
+    })
+  });
+  if (!res.ok) {
+    const txt = await res.text().catch(() => '');
+    throw new Error('EmailJS HTTP ' + res.status + ': ' + txt.slice(0, 200));
+  }
+  return true;
+}
+
+// Booking state
+const state = {
+  date: null,         // 'YYYY-MM-DD'
+  time: null,         // 'HH:MM'
+  monthCursor: null,  // Date object pointing at first of viewed month
+  bookings: [],       // Existing bookings from localStorage (to mark slots booked)
+  details: {}
+};
+
+// ── Helpers ─────────────────────────────────────────────────────
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const pad = n => String(n).padStart(2, '0');
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
+
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const DOW = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+
+// Format human date "Thursday 22 May 2026"
+function fmtDateLong(iso) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+}
+// Format "Thu 22 May · 14:00"
+function fmtDateTime(iso, time) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' }) + ' · ' + time;
+}
+
+// ── Load existing bookings from CRM storage (so we can mark slots) ───
+function loadExistingBookings() {
+  try {
+    const raw = localStorage.getItem(CRM_STORAGE_KEY);
+    if (!raw) return [];
+    const db = JSON.parse(raw);
+    return (db.bookings || []).filter(b => b.status !== 'cancelled');
+  } catch { return []; }
+}
+state.bookings = [];
+// Taken slots come from the shared calendar (times only — no personal details)
+(function loadTakenSlots() {
+  const from = new Date(); const to = new Date(Date.now() + 120 * 864e5);
+  const iso = d => d.toISOString().slice(0, 10);
+  mbpsRpc('get_booked_slots', { from_date: iso(from), to_date: iso(to) }).then(rows => {
+    state.bookings = (rows || []).map(r => ({ date: r.slot_date, time: r.slot_time, status: 'confirmed' }));
+    try { renderCalendar(); if (state.date) renderSlots(); } catch (_) {}
+  }).catch(() => { /* calendar still works; the server re-checks the slot on submit */ });
+})();
+
+// ── Calendar render ─────────────────────────────────────────────
+function renderCalendar() {
+  const grid = $('#cal-grid');
+  const cursor = state.monthCursor;
+  $('#cal-month').textContent = MONTHS[cursor.getMonth()] + ' ' + cursor.getFullYear();
+
+  // Day-of-week header row
+  let html = DOW.map(d => `<div class="cal-dow">${d}</div>`).join('');
+
+  // First day of month, compute its weekday (Mon=0)
+  const first = new Date(cursor.getFullYear(), cursor.getMonth(), 1);
+  let startDow = first.getDay() - 1; if (startDow < 0) startDow = 6; // Sun→6
+
+  // Empty cells before the 1st
+  for (let i = 0; i < startDow; i++) html += `<div class="cal-day empty"></div>`;
+
+  // Days of month
+  const daysInMonth = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0).getDate();
+  const today = new Date(); today.setHours(0,0,0,0);
+  const maxDate = new Date(); maxDate.setDate(maxDate.getDate() + 60); // book up to 60 days ahead
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateObj = new Date(cursor.getFullYear(), cursor.getMonth(), d);
+    const iso = dateObj.getFullYear() + '-' + pad(dateObj.getMonth()+1) + '-' + pad(dateObj.getDate());
+    const dow = dateObj.getDay(); // 0=Sun, 6=Sat
+    const isPast = dateObj < today;
+    const isWeekend = dow === 0 || dow === 6;
+    const isTooFar = dateObj > maxDate;
+    const disabled = isPast || isWeekend || isTooFar;
+    const isToday = dateObj.getTime() === today.getTime();
+    const isSelected = state.date === iso;
+
+    html += `<div class="cal-day ${disabled?'disabled':''} ${isToday?'today':''} ${isSelected?'selected':''}"
+      ${disabled ? '' : `onclick="selectDate('${iso}')"`}
+      data-date="${iso}">${d}</div>`;
+  }
+
+  grid.innerHTML = html;
+
+  // Disable nav buttons appropriately
+  const prevMonth = new Date(cursor); prevMonth.setMonth(prevMonth.getMonth() - 1);
+  const thisMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+  $('#cal-prev').disabled = prevMonth < thisMonth;
+  const maxMonth = new Date(today.getFullYear(), today.getMonth() + 2, 1); // up to 2 months ahead
+  $('#cal-next').disabled = cursor.getMonth() >= maxMonth.getMonth() && cursor.getFullYear() >= maxMonth.getFullYear();
+}
+
+// ── Time slot generation ────────────────────────────────────────
+function selectDate(iso) {
+  state.date = iso;
+  state.time = null;
+  renderCalendar();
+  renderSlots();
+  updateButtons();
+}
+
+function renderSlots() {
+  const sec = $('#slot-section');
+  if (!state.date) { sec.style.display = 'none'; return; }
+  sec.style.display = 'block';
+  $('#slot-heading').textContent = 'Available times · ' + fmtDateLong(state.date);
+
+  // 30-min slots from 09:00 to 17:30 (last 17:30 → 18:00)
+  const slots = [];
+  for (let h = 9; h < 18; h++) {
+    slots.push(`${pad(h)}:00`);
+    slots.push(`${pad(h)}:30`);
+  }
+
+  // Hide past time slots if booking for today
+  const now = new Date();
+  const todayIso = now.getFullYear() + '-' + pad(now.getMonth()+1) + '-' + pad(now.getDate());
+  const isToday = state.date === todayIso;
+  const nowMins = now.getHours() * 60 + now.getMinutes();
+
+  const bookedSet = new Set(
+    state.bookings.filter(b => b.date === state.date).map(b => b.time)
+  );
+
+  $('#slot-grid').innerHTML = slots.map(t => {
+    const [h, m] = t.split(':').map(Number);
+    const slotMins = h * 60 + m;
+    const isPastToday = isToday && slotMins <= nowMins + 60; // need 1hr lead time
+    const isBooked = bookedSet.has(t);
+    const disabled = isPastToday || isBooked;
+    const isSelected = state.time === t;
+    return `<div class="slot ${disabled?'booked':''} ${isSelected?'selected':''}"
+      ${disabled ? '' : `onclick="selectTime('${t}')"`}>${t}</div>`;
+  }).join('');
+}
+
+function selectTime(t) {
+  state.time = t;
+  renderSlots();
+  updateButtons();
+}
+
+// ── Step navigation ─────────────────────────────────────────────
+let currentStep = 1;
+function showStep(n) {
+  $$('.step').forEach(s => s.classList.remove('active'));
+  $(`.step[data-step="${n}"]`).classList.add('active');
+  currentStep = n;
+  updateProgress();
+  updateButtons();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function updateProgress() {
+  if (currentStep === 3) { $('#progress').style.display = 'none'; return; }
+  $('#progress').style.display = 'block';
+  const pct = (currentStep / 2) * 100;
+  $('#progress-fill').style.width = pct + '%';
+  const labels = ['Choose a date', 'Your details'];
+  $('#progress').querySelector('.progress-meta').innerHTML =
+    `<strong>Step ${currentStep}</strong>of 2 · ${labels[currentStep-1]}`;
+}
+function updateButtons() {
+  const back = $('#btn-back'), next = $('#btn-next'), confirm = $('#btn-confirm'), controls = $('#controls');
+  if (currentStep === 3) { controls.style.display = 'none'; return; }
+  controls.style.display = 'flex';
+
+  if (currentStep === 1) {
+    back.style.visibility = 'hidden';
+    next.style.display = 'inline-flex';
+    confirm.style.display = 'none';
+    next.disabled = !(state.date && state.time);
+  } else if (currentStep === 2) {
+    back.style.visibility = 'visible';
+    next.style.display = 'none';
+    confirm.style.display = 'inline-flex';
+  }
+}
+
+// ── Validation for step 2 ───────────────────────────────────────
+function validateDetails() {
+  let ok = true;
+  ['name','email','phone','goal'].forEach(n => {
+    const el = document.querySelector(`[name="${n}"]`);
+    if (!el) return;
+    if (!el.value.trim() || (el.type === 'email' && !/\S+@\S+\.\S+/.test(el.value))) {
+      ok = false;
+      el.classList.add('invalid');
+      setTimeout(() => el.classList.remove('invalid'), 1800);
+    }
+  });
+  return ok;
+}
+
+function collectDetails() {
+  const d = {};
+  ['name','email','phone','source','goal','strategy','budget','notes'].forEach(n => {
+    const el = document.querySelector(`[name="${n}"]`);
+    d[n] = el ? el.value.trim() : '';
+  });
+  return d;
+}
+
+function parseBudget(txt) {
+  if (!txt) return null;
+  const clean = txt.toLowerCase().replace(/[£,\s]/g, '');
+  if (clean.endsWith('k')) return parseFloat(clean) * 1000;
+  if (clean.endsWith('m')) return parseFloat(clean) * 1000000;
+  const n = parseFloat(clean);
+  return isNaN(n) ? null : n;
+}
+
+// ── Submit / confirm ────────────────────────────────────────────
+async function confirmBooking() {
+  if (!validateDetails()) return;
+  const d = collectDetails();
+  state.details = d;
+
+  // Build booking record
+  const bookingId = uid();
+  const datetimeISO = state.date + 'T' + state.time + ':00';
+  const booking = {
+    id: bookingId,
+    name: d.name,
+    email: d.email,
+    phone: d.phone,
+    date: state.date,
+    time: state.time,
+    datetime: datetimeISO,
+    duration: 30,
+    source: d.source,
+    goal: d.goal,
+    strategy: d.strategy,
+    budget: d.budget,
+    budgetParsed: parseBudget(d.budget),
+    notes: d.notes,
+    meetingProvider: MEETING.url ? MEETING.provider : null,
+    meetingUrl: MEETING.url || null,
+    meetingPasscode: MEETING.passcode || null,
+    status: 'confirmed',
+    createdAt: new Date().toISOString()
+  };
+
+  // Book through the shared MBPS workspace — the slot is checked server-side,
+  // and the investor, task and call log appear in the CRM for the whole team
+  const btn = document.getElementById('btn-confirm');
+  const label = btn ? btn.textContent : '';
+  if (btn) { btn.disabled = true; btn.textContent = 'Booking…'; }
+  try {
+    const res = await mbpsRpc('submit_booking', { p: {
+      name: d.name, email: d.email, phone: d.phone, date: state.date, time: state.time,
+      goal: d.goal, strategy: d.strategy, budgetText: d.budget, budget: booking.budgetParsed,
+      source: d.source, notes: d.notes
+    } });
+    const m = (res && res.meeting) || {};
+    if (m.url) MEETING = { provider: m.provider || 'Zoom', url: m.url, passcode: m.passcode || '' };
+    const ej = (res && res.emailjs) || {};
+    EJ = ej.publicKey && ej.serviceId && ej.clientTemplateId ? ej : null;
+    booking.id = res.bookingId || booking.id;
+    booking.meetingProvider = MEETING.url ? MEETING.provider : null;
+    booking.meetingUrl = MEETING.url || null;
+    booking.meetingPasscode = MEETING.passcode || null;
+    state.bookings.push({ date: state.date, time: state.time, status: 'confirmed' });
+  } catch (err) {
+    if (btn) { btn.disabled = false; btn.textContent = label; }
+    alert(err.message);
+    if (/taken/i.test(err.message)) { try { renderSlots(); } catch (_) {} }
+    return;
+  }
+  if (btn) { btn.disabled = false; btn.textContent = label; }
+
+  // Update success screen
+  $('#success-name').textContent = (d.name.split(' ')[0] || 'investor');
+  $('#success-when').textContent = fmtDateLong(state.date) + ' · ' + state.time;
+  $('#success-phone').textContent = d.phone;
+
+  // Show meeting / Zoom block if configured
+  if (MEETING.url) {
+    $('#meeting-block').style.display = 'block';
+    $('#meeting-platform-label').textContent = MEETING.provider + ' meeting';
+    const joinBtn = $('#meeting-join');
+    joinBtn.href = MEETING.url;
+    joinBtn.textContent = 'Join ' + MEETING.provider + ' Call →';
+    if (MEETING.passcode) {
+      $('#meeting-passcode-row').style.display = 'block';
+      $('#meeting-passcode').textContent = MEETING.passcode;
+    }
+    // Update the "where" line under the date/time
+    $('#success-where').innerHTML =
+      '🎥 ' + esc(MEETING.provider) + ' · <a href="' + esc(MEETING.url) + '" target="_blank" rel="noopener" style="color:var(--gold-dark);font-weight:600;text-decoration:underline">Join link</a> · 📞 Backup: ' + esc(d.phone);
+  } else {
+    $('#meeting-block').style.display = 'none';
+  }
+
+  // Generate .ics calendar download
+  buildICS(booking);
+
+  // Try to send both emails automatically via EmailJS (no popup, no manual action).
+  // Falls back to the legacy mailto: flow if EmailJS isn't configured in CRM Settings.
+  autoSendBookingEmails(booking).then(result => {
+    updateEmailStatusUI(result);
+  });
+
+  showStep(3);
+}
+
+// ── Email auto-send orchestration ─────────────────────────────────────
+async function autoSendBookingEmails(b) {
+  if (!EJ) {
+    // No EmailJS configured — fall back to legacy mailto popups for staff
+    notifyStaff(b);
+    return { mode: 'manual', clientSent: false, staffSent: false };
+  }
+
+  const meetingBlock = MEETING.url
+    ? `🎥 Join via ${MEETING.provider}: ${MEETING.url}` +
+      (MEETING.passcode ? `\nPasscode: ${MEETING.passcode}` : '') +
+      `\n📞 Backup phone: ${b.phone}`
+    : `📞 Carean will call you on ${b.phone}`;
+
+  // ── Client confirmation ─────────────────────────────────────────
+  const clientParams = {
+    to_name:    (b.name.split(' ')[0] || 'there'),
+    to_email:   b.email,
+    from_name:  'Carean Moyo',
+    reply_to:   MBPS_EMAIL,
+    date_long:  fmtDateLong(b.date),
+    time:       b.time,
+    duration:   `${b.duration} minutes`,
+    meeting_block:    meetingBlock,
+    meeting_provider: MEETING.provider || '',
+    meeting_url:      MEETING.url || '',
+    meeting_passcode: MEETING.passcode || '',
+    phone_backup:     b.phone,
+    mbps_email:       MBPS_EMAIL,
+    mbps_phone:       MBPS_PHONE
+  };
+
+  // ── Staff notification ──────────────────────────────────────────
+  const staffParams = {
+    to_email:      MBPS_EMAIL,
+    client_name:   b.name,
+    client_email:  b.email,
+    client_phone:  b.phone,
+    date_long:     fmtDateLong(b.date),
+    time:          b.time,
+    source:        b.source || '—',
+    goal:          b.goal || '—',
+    strategy:      b.strategy || '—',
+    budget:        b.budget || '—',
+    notes:         b.notes || '(none)',
+    meeting_block: meetingBlock
+  };
+
+  let clientSent = false, staffSent = false, errors = [];
+
+  try {
+    await emailjsSend(EJ.clientTemplateId, clientParams);
+    clientSent = true;
+  } catch (e) {
+    console.warn('Client confirmation email failed:', e);
+    errors.push('client: ' + e.message);
+  }
+
+  if (EJ.staffTemplateId) {
+    try {
+      await emailjsSend(EJ.staffTemplateId, staffParams);
+      staffSent = true;
+    } catch (e) {
+      console.warn('Staff notification email failed:', e);
+      errors.push('staff: ' + e.message);
+    }
+  }
+
+  return { mode: 'auto', clientSent, staffSent, errors };
+}
+
+function updateEmailStatusUI(result) {
+  const host = document.getElementById('email-status');
+  if (!host) return;
+  if (result.mode === 'manual') {
+    host.innerHTML = `<div style="background:rgba(245,166,35,0.10);border:1px solid rgba(245,166,35,0.3);color:#92400E;padding:10px 16px;border-radius:10px;font-size:12.5px;line-height:1.5">
+      ⚠ Automatic emails aren't configured. Click <b>Send confirmation email</b> below to send manually — or set up EmailJS in the CRM (Settings → Automated Emails) for one-click bookings.
+    </div>`;
+    return;
+  }
+  if (result.clientSent && (result.staffSent || !EJ.staffTemplateId)) {
+    host.innerHTML = `<div style="background:rgba(15,139,109,0.10);border:1px solid rgba(15,139,109,0.3);color:var(--emerald);padding:10px 16px;border-radius:10px;font-size:12.5px;line-height:1.5">
+      ✓ Confirmation email sent to <b>${esc(state.details?.email||'your inbox')}</b>. Check your inbox (or spam folder) within 1–2 minutes.
+    </div>`;
+    // Hide the manual "Send confirmation email" button since it's redundant
+    const manualBtn = document.querySelector('.success-actions button[onclick*="sendConfirmationEmail"]');
+    if (manualBtn) manualBtn.textContent = '↻ Resend confirmation';
+  } else if (result.clientSent) {
+    host.innerHTML = `<div style="background:rgba(15,139,109,0.10);border:1px solid rgba(15,139,109,0.3);color:var(--emerald);padding:10px 16px;border-radius:10px;font-size:12.5px;line-height:1.5">
+      ✓ Confirmation email sent. Staff notification failed — Carean will see your booking in the CRM regardless.
+    </div>`;
+  } else {
+    host.innerHTML = `<div style="background:rgba(220,38,38,0.10);border:1px solid rgba(220,38,38,0.3);color:#B91C1C;padding:10px 16px;border-radius:10px;font-size:12.5px;line-height:1.5">
+      ⚠ Auto-send failed. Click <b>Send confirmation email</b> below to send manually. Your booking is still saved.
+    </div>`;
+  }
+}
+
+// HTML escape for booking page (no shared esc() here)
+function esc(s) {
+  return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+// ── Generate ICS calendar file ──────────────────────────────────
+function buildICS(b) {
+  const start = new Date(b.datetime);
+  const end = new Date(start.getTime() + b.duration * 60000);
+  const toICS = d => d.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+
+  // Build location + description with Zoom/meeting details when set
+  const hasMeeting = !!MEETING.url;
+  const location = hasMeeting
+    ? `${MEETING.provider} — ${MEETING.url}`
+    : `Phone call — Carean will call ${b.phone}`;
+
+  const descParts = [
+    `30-minute discovery call with Carean Moyo at Moyo Bespoke Property Solutions.`,
+    ``,
+  ];
+  if (hasMeeting) {
+    descParts.push(`🎥 Join via ${MEETING.provider}:`);
+    descParts.push(MEETING.url);
+    if (MEETING.passcode) descParts.push(`Passcode: ${MEETING.passcode}`);
+    descParts.push(`📞 Backup phone: ${b.phone}`);
+    descParts.push(``);
+  }
+  descParts.push(`Client: ${b.name}`);
+  descParts.push(`Phone: ${b.phone}`);
+  descParts.push(`Email: ${b.email}`);
+  descParts.push(`Goal: ${b.goal || '—'}`);
+  descParts.push(`Strategy: ${b.strategy || '—'}`);
+  descParts.push(`Budget: ${b.budget || '—'}`);
+  descParts.push(``);
+  descParts.push(`Notes:`);
+  descParts.push(b.notes || '(none)');
+  const description = descParts.join('\\n');
+
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//MBPS//Discovery Call//EN',
+    'METHOD:PUBLISH',
+    'BEGIN:VEVENT',
+    `UID:${b.id}@moyobespoke.com`,
+    `DTSTAMP:${toICS(new Date())}`,
+    `DTSTART:${toICS(start)}`,
+    `DTEND:${toICS(end)}`,
+    `SUMMARY:MBPS Discovery Call — ${b.name}${hasMeeting ? ' (' + MEETING.provider + ')' : ''}`,
+    `DESCRIPTION:${description}`,
+    `LOCATION:${location}`,
+    hasMeeting ? `URL:${MEETING.url}` : null,
+    `ORGANIZER;CN=Carean Moyo:MAILTO:${MBPS_EMAIL}`,
+    `ATTENDEE;CN=${b.name};RSVP=TRUE:MAILTO:${b.email}`,
+    'STATUS:CONFIRMED',
+    'BEGIN:VALARM',
+    'TRIGGER:-PT24H',
+    'ACTION:DISPLAY',
+    'DESCRIPTION:MBPS discovery call tomorrow',
+    'END:VALARM',
+    'END:VEVENT',
+    'END:VCALENDAR'
+  ].filter(Boolean).join('\r\n');
+
+  const blob = new Blob([lines], { type: 'text/calendar' });
+  const url = URL.createObjectURL(blob);
+  $('#ical-link').href = url;
+}
+
+// ── Staff notification email (opens user's email client) ────────
+// Two parts: (a) auto-fired on confirm — notify staff with full details
+//            (b) client-confirmation — fired manually by the "Send confirmation email" button
+function notifyStaff(b) {
+  const subject = `New Discovery Call Booked — ${b.name} · ${fmtDateTime(b.date, b.time)}`;
+  const meetingLines = MEETING.url ? [
+    `─── Meeting Link (${MEETING.provider}) ───`,
+    MEETING.url,
+    MEETING.passcode ? `Passcode: ${MEETING.passcode}` : null,
+    ``
+  ].filter(Boolean) : [
+    `─── Meeting Link ───`,
+    `⚠ No meeting link configured in CRM Settings — booking will run as a phone call only.`,
+    ``
+  ];
+  const body = [
+    `A new discovery call has been booked via the website.`,
+    ``,
+    `─── When ───`,
+    `${fmtDateLong(b.date)}`,
+    `${b.time} (${b.duration} minutes)`,
+    ``,
+    `─── Who ───`,
+    `Name:    ${b.name}`,
+    `Email:   ${b.email}`,
+    `Phone:   ${b.phone}`,
+    `Source:  ${b.source || '—'}`,
+    ``,
+    ...meetingLines,
+    `─── Pre-call answers ───`,
+    `Primary goal: ${b.goal || '—'}`,
+    `Strategy:     ${b.strategy || '—'}`,
+    `Budget:       ${b.budget || '—'}`,
+    ``,
+    `─── Notes ───`,
+    b.notes || '(none)',
+    ``,
+    `─────────────────────────────────────`,
+    `This booking has been saved to your CRM automatically.`,
+    `Open the CRM → Tasks (or Investors → ${b.name}) to see full details.`
+  ].join('\r\n');
+
+  // Use a small delay so the success screen renders first, then nudge the mail client
+  setTimeout(() => {
+    const url = 'mailto:' + encodeURIComponent(MBPS_EMAIL)
+              + '?subject=' + encodeURIComponent(subject)
+              + '&body=' + encodeURIComponent(body);
+    // Open in a hidden iframe so we don't navigate away from the success screen
+    const iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    iframe.src = url;
+    document.body.appendChild(iframe);
+    setTimeout(() => iframe.remove(), 1000);
+  }, 500);
+}
+
+// Client-side confirmation email — sends a clean, short confirmation
+// addressed to the client with MBPS on CC.
+async function sendConfirmationEmail() {
+  const d = state.details || {};
+  if (!d.email || !state.date || !state.time) { alert('Missing details — please re-book.'); return; }
+
+  // If EmailJS is configured, send silently and update the status banner
+  if (EJ) {
+    const host = document.getElementById('email-status');
+    if (host) host.innerHTML = `<div style="background:rgba(74,158,255,0.10);border:1px solid rgba(74,158,255,0.3);color:#1E40AF;padding:10px 16px;border-radius:10px;font-size:12.5px">⏳ Resending confirmation email...</div>`;
+    const fakeBooking = {
+      name: d.name, email: d.email, phone: d.phone,
+      date: state.date, time: state.time, duration: 30,
+      source: d.source, goal: d.goal, strategy: d.strategy, budget: d.budget, notes: d.notes
+    };
+    const result = await autoSendBookingEmails(fakeBooking);
+    updateEmailStatusUI(result);
+    return;
+  }
+
+  // Legacy mailto fallback (no EmailJS setup yet)
+  const subject = `Your MBPS Discovery Call — ${fmtDateTime(state.date, state.time)}`;
+
+  // Meeting block (Zoom link prominent, phone as backup)
+  const meetingBlock = MEETING.url ? [
+    `🎥  Join via ${MEETING.provider}:`,
+    `    ${MEETING.url}`,
+    MEETING.passcode ? `    Passcode: ${MEETING.passcode}` : null,
+    `📞  Backup line: ${d.phone}`
+  ].filter(Boolean) : [
+    `📞  Carean will call you on ${d.phone}`
+  ];
+
+  const body = [
+    `Hi ${d.name.split(' ')[0] || 'there'},`,
+    ``,
+    `This confirms your 30-minute discovery call with Carean Moyo at Moyo Bespoke Property Solutions:`,
+    ``,
+    `🗓  ${fmtDateLong(state.date)}`,
+    `🕒  ${state.time} UK time`,
+    ...meetingBlock,
+    ``,
+    MEETING.url ? `Click the ${MEETING.provider} link above a minute or two before the call — no app download needed on most devices.` : `Please be ready to answer at the scheduled time. If anything changes on your side, let us know in advance.`,
+    ``,
+    `What to expect:`,
+    `• A short, no-fee conversation about your goals, capital position and timeline.`,
+    `• If MBPS is the right fit, we'll discuss next steps and send you our Deal Sourcing Agreement.`,
+    `• If it isn't, you'll leave with clearer thinking and zero obligation.`,
+    ``,
+    `Need to reschedule? Reply to this email or call us on ${MBPS_PHONE}.`,
+    ``,
+    `Speak soon,`,
+    `Carean Moyo`,
+    `Founder & CEO · Moyo Bespoke Property Solutions Ltd`,
+    `${MBPS_EMAIL} · ${MBPS_PHONE}`,
+    `Company No. 16011904 · Cardiff, UK`
+  ].join('\r\n');
+  const url = 'mailto:' + encodeURIComponent(d.email)
+            + '?cc=' + encodeURIComponent(MBPS_EMAIL)
+            + '&subject=' + encodeURIComponent(subject)
+            + '&body=' + encodeURIComponent(body);
+  window.location.href = url;
+}
+
+// ── Wire buttons ────────────────────────────────────────────────
+$('#cal-prev').addEventListener('click', () => {
+  state.monthCursor.setMonth(state.monthCursor.getMonth() - 1);
+  renderCalendar();
+});
+$('#cal-next').addEventListener('click', () => {
+  state.monthCursor.setMonth(state.monthCursor.getMonth() + 1);
+  renderCalendar();
+});
+$('#btn-next').addEventListener('click', () => {
+  if (currentStep !== 1) return;
+  if (!state.date || !state.time) return;
+  $('#confirm-when').textContent = fmtDateLong(state.date) + ' · ' + state.time;
+  showStep(2);
+});
+$('#btn-back').addEventListener('click', () => {
+  if (currentStep > 1) showStep(currentStep - 1);
+});
+$('#btn-confirm').addEventListener('click', confirmBooking);
+
+// ── Boot ────────────────────────────────────────────────────────
+state.monthCursor = new Date();
+state.monthCursor.setDate(1);
+renderCalendar();
+$('#year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

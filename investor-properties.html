@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Active Properties — Moyo Bespoke Property Solutions</title>
+<meta name="description" content="Browse the active property opportunities currently listed by Moyo Bespoke Property Solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mbps-public-brand.css">
+<style>
+  /* Page-specific bits not covered by the shared brand stylesheet — the
+     toolbar and property cards, in the same royal-blue/gold/cream language
+     as the rest of the site. */
+  .lp-wrap { max-width: 1180px; margin: 0 auto; padding: 0 8vw 90px; }
+  .lp-toolbar { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 32px; }
+  .lp-toolbar input, .lp-toolbar select {
+    font: inherit; padding: 13px 18px; border: 1px solid rgba(200,162,79,0.3); border-radius: 999px;
+    background: rgba(255,255,255,0.06); color: var(--white); font-size: 13.5px;
+  }
+  .lp-toolbar input::placeholder { color: rgba(255,255,255,0.45); }
+  .lp-toolbar input { flex: 1; min-width: 220px; }
+  .lp-toolbar select { color-scheme: dark; }
+  .lp-count { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 26px; }
+  .lp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 24px; }
+  .lp-card {
+    position: relative; border-radius: 18px; overflow: hidden;
+    background: var(--cream); border: 1px solid rgba(200,162,79,0.22);
+    text-decoration: none; color: inherit; display: flex; flex-direction: column;
+    transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+  }
+  .lp-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-luxe-hi); border-color: rgba(200,162,79,0.45); }
+  .lp-card-img { height: 190px; background-size: cover; background-position: center; position: relative; }
+  .lp-card-pill {
+    position: absolute; top: 14px; left: 14px;
+    background: rgba(10,27,61,0.82); backdrop-filter: blur(8px);
+    color: var(--gold-light); font-size: 10px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+    padding: 6px 12px; border-radius: 999px;
+  }
+  .lp-card-body { padding: 22px 22px 24px; flex: 1; display: flex; flex-direction: column; }
+  .lp-card h3 { font-family: var(--font-display); font-weight: 500; font-size: 1.4rem; color: var(--royal-blue); margin-bottom: 4px; }
+  .lp-card .loc { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-soft); margin-bottom: 16px; }
+  .lp-card-meta { display: flex; gap: 16px; font-size: 12.5px; color: var(--text-mid); margin-bottom: 16px; flex-wrap: wrap; }
+  .lp-card-price { margin-top: auto; padding-top: 16px; border-top: 1px solid rgba(0,0,0,0.08); display: flex; justify-content: space-between; align-items: baseline; }
+  .lp-card-price .v { font-family: var(--font-display); font-size: 1.4rem; color: var(--royal-blue); }
+  .lp-card-price .cta { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-dark); }
+  .lp-empty { text-align: center; padding: 80px 6vw; color: rgba(255,255,255,0.55); }
+  .lp-empty h3 { font-family: var(--font-display); font-size: 28px; color: var(--white); font-weight: 400; }
+  @media (max-width: 700px) { .lp-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="noise"></div>
+
+<nav class="nav" id="nav">
+  <a href="MBPS-Website.html" class="nav-brand">
+    <span class="nav-brand-mark">
+      <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs><linearGradient id="navGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E2C37B"/><stop offset="60%" stop-color="#C8A24F"/><stop offset="100%" stop-color="#7A5A32"/></linearGradient></defs>
+        <g stroke="url(#navGold)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M 16 32 L 30 18 L 44 32"/><path d="M 18 32 L 18 46 L 42 46 L 42 32"/><path d="M 27 46 L 27 37 L 33 37 L 33 46"/>
+          <rect x="21" y="35" width="3.5" height="3.5" rx="0.4"/><rect x="35.5" y="35" width="3.5" height="3.5" rx="0.4"/>
+        </g>
+        <text x="30" y="16" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="13" font-weight="500" fill="url(#navGold)" letter-spacing="1">M</text>
+      </svg>
+    </span>
+    <span>MBPS</span>
+  </a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="MBPS-Website.html" class="nav-back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 18l-6-6 6-6"/></svg> Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="process.html">Process</a></li>
+    <li><a href="investor-properties.html" class="current">Active Properties</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="book-consultation.html" class="nav-cta">Book Consultation →</a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</nav>
+
+<section class="page-hero" style="padding-bottom:50px">
+  <div class="page-hero-content">
+    <span class="section-tag">Live Mandates</span>
+    <h1>Active Property <em>Opportunities.</em></h1>
+    <p>Every deal currently being sourced or under offer, open to our investor network. Click any property for full financials and to accept, decline or reserve it.</p>
+  </div>
+</section>
+
+<div class="lp-wrap">
+  <div class="lp-toolbar">
+    <input id="lp-search" type="text" placeholder="Search by name or location..." oninput="renderResults()">
+    <select id="lp-strategy" onchange="renderResults()">
+      <option value="">All Strategies</option>
+    </select>
+  </div>
+  <div id="lp-results"></div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-mark">MBPS</div>
+      <p class="footer-blurb">Moyo Bespoke Property Solutions — investment-grade property sourcing, curated for serious investors across the United Kingdom.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="about.html">About</a>
+      <a href="team.html">Team</a>
+      <a href="process.html">Process</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h5>Strategies</h5>
+      <a href="services.html">Buy-to-Let</a>
+      <a href="services.html">HMO</a>
+      <a href="services.html">Serviced Accommodation</a>
+      <a href="services.html">Commercial</a>
+    </div>
+    <div class="footer-col">
+      <h5>Get in touch</h5>
+      <a href="tel:+447447394309">📞 07447 394 309</a>
+      <a href="mailto:info@moyobespoke.com">✉️ info@moyobespoke.com</a>
+      <a href="investor-brief.html">Investor brief →</a>
+      <a href="book-consultation.html">Book consultation</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>© <span id="year"></span> Moyo Bespoke Property Solutions Ltd · Company No. 16011904 · Cardiff, UK</div>
+  </div>
+</footer>
+
+<script>
+const STORAGE_KEY = 'mbps_crm_v2';
+// Same bridge-as-source-of-truth pattern as client-property.html — see that
+// file for the full reasoning. Only works out of the box when this page is
+// opened on the same machine the bridge runs on; point this at a public URL
+// once the bridge is hosted somewhere reachable by investors generally.
+const BRIDGE_URL = 'http://localhost:4949';
+
+function loadDB() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) { return null; }
+}
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function fmt(n) { return n == null || n === '' ? '—' : '£' + Number(n).toLocaleString('en-GB'); }
+
+function areaFromAddress(address) {
+  if (!address) return '';
+  const parts = address.split(',').map(s => s.trim()).filter(Boolean);
+  return parts.length > 1 ? parts.slice(1).join(', ') : parts[0] || '';
+}
+
+// Mirrors encodePropertyForShare() in MBPS-CRM.html — builds the same kind
+// of self-contained link so "View Details" lands on client-property.html
+// with everything it needs baked into the URL, no shared storage required.
+function encodePropertyForShare(a, bankDetails) {
+  const payload = {
+    id: a.id, name: a.name, address: a.address, proptype: a.proptype,
+    price: a.price, rent: a.rent, renovation: a.renovation, deposit: a.deposit, fee: a.fee,
+    bedrooms: a.bedrooms, bathrooms: a.bathrooms, units: a.units,
+    image: a.image, strategyInputs: a.strategyInputs,
+    investorDecision: a.investorDecision, reserved: a.reserved,
+    bankDetails: bankDetails
+  };
+  const json = JSON.stringify(payload);
+  return encodeURIComponent(btoa(unescape(encodeURIComponent(json))));
+}
+
+async function fetchBridgeData() {
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 4000);
+    const res = await fetch(BRIDGE_URL + '/data', { signal: ctrl.signal });
+    clearTimeout(t);
+    const json = await res.json();
+    return json.ok ? json : null;
+  } catch (e) { return null; }
+}
+
+let _allActive = [];
+let _bankDetails = { accountName: 'Moyo Bespoke Property Solutions Ltd', sortCode: '00-00-00', accountNumber: '00000000', reservationFee: 100 };
+
+// Notion doesn't have a property for listingStatus (kept local-only on
+// purpose — see MBPS-CRM.html), so a record pulled fresh from the bridge
+// never knows whether it's Public/Private/Inactive. Merge bridge data onto
+// the local copy (which does know) rather than replacing it outright, so a
+// property someone set to Private/Inactive locally can't be exposed again
+// by a bridge refresh.
+const NOTION_TRACKED_FIELDS = ['name','stage','priority','address','proptype','price','rent','fee','depositReceived','completion','notes','clientId','investorDecision','reserved'];
+function mergeBridgeDeals(localAcqs, bridgeDeals) {
+  const merged = localAcqs.map(a => ({ ...a }));
+  for (const remote of (bridgeDeals || [])) {
+    const local = merged.find(x => x.id === remote.id);
+    if (local) {
+      for (const f of NOTION_TRACKED_FIELDS) if (remote[f] !== undefined) local[f] = remote[f];
+    } else {
+      // Brand new record Notion knows about that this browser has never
+      // cached — default to Public (opt-out, not opt-in).
+      merged.push({ ...remote, listingStatus: 'public' });
+    }
+  }
+  return merged;
+}
+
+// Only "Public" properties belong on this page. "Private" still works via
+// a direct one-off link from the CRM's Share modal; "Inactive" is hidden
+// everywhere investor-facing. A record from before this field existed
+// (undefined) is treated as Public, matching the opt-out default in the CRM.
+function buildActiveList(db) {
+  const acqs = (db && db.acquisitions) || [];
+  return acqs.filter(a => (a.listingStatus || 'public') === 'public');
+}
+
+function cardHTML(a) {
+  const img = a.image || 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=80';
+  const area = areaFromAddress(a.address);
+  const link = 'client-property.html?d=' + encodePropertyForShare(a, _bankDetails);
+  return `<a class="lp-card" href="${esc(link)}">
+    <div class="lp-card-img" style="background-image:url('${esc(img)}')">
+      <span class="lp-card-pill">${esc(a.proptype || 'Property')}</span>
+    </div>
+    <div class="lp-card-body">
+      <h3>${esc(a.name)}</h3>
+      <div class="loc">${esc(area || 'Location on request')}</div>
+      <div class="lp-card-meta">
+        ${a.bedrooms != null && a.bedrooms !== '' ? `<span>${esc(String(a.bedrooms))} bed</span>` : ''}
+        ${a.bathrooms != null && a.bathrooms !== '' ? `<span>${esc(String(a.bathrooms))} bath</span>` : ''}
+        ${a.units > 1 ? `<span>${esc(String(a.units))} units</span>` : ''}
+      </div>
+      <div class="lp-card-price">
+        <span class="v">${fmt(a.price)}</span>
+        <span class="cta">View Details →</span>
+      </div>
+    </div>
+  </a>`;
+}
+
+// The toolbar (search box, strategy select) is built once in the static
+// markup above and never replaced afterwards — re-rendering it on every
+// keystroke destroys and recreates the <input>, which drops focus after
+// each character. Typing only ever updates #lp-results.
+function populateStrategyFilter() {
+  const sel = document.getElementById('lp-strategy');
+  if (!sel) return;
+  const current = sel.value;
+  const strategies = [...new Set(_allActive.map(a => a.proptype).filter(Boolean))];
+  sel.innerHTML = `<option value="">All Strategies</option>${strategies.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('')}`;
+  sel.value = current;
+}
+
+function renderResults() {
+  const resultsEl = document.getElementById('lp-results');
+  if (!resultsEl) return;
+  const q = (document.getElementById('lp-search')?.value || '').toLowerCase();
+  const strategyFilter = document.getElementById('lp-strategy')?.value || '';
+
+  const list = _allActive.filter(a =>
+    (!q || a.name.toLowerCase().includes(q) || (a.address || '').toLowerCase().includes(q)) &&
+    (!strategyFilter || a.proptype === strategyFilter)
+  );
+
+  resultsEl.innerHTML = `
+    <div class="lp-count">${list.length} active propert${list.length===1?'y':'ies'}${_allActive.length!==list.length ? ` (of ${_allActive.length})` : ''}</div>
+    ${list.length ? `<div class="lp-grid">${list.map(cardHTML).join('')}</div>` : `
+      <div class="lp-empty">
+        <h3>No properties match</h3>
+        <p style="margin-top:10px">Try a different search or check back soon — new opportunities are added regularly.</p>
+      </div>`}
+  `;
+}
+
+async function init() {
+  // Render instantly off whatever's cached locally (same-device only),
+  // then refresh from Notion via the bridge — the canonical, cross-device
+  // list — the moment it answers. Silent/no-op if the bridge isn't reachable.
+  const localDb = loadDB();
+  _allActive = buildActiveList(localDb);
+  if (localDb?.settings?.bankDetails) _bankDetails = localDb.settings.bankDetails;
+  populateStrategyFilter();
+  renderResults();
+
+  const bridgeData = await fetchBridgeData();
+  if (bridgeData) {
+    const localAcqs = (localDb && localDb.acquisitions) || [];
+    _allActive = buildActiveList({ acquisitions: mergeBridgeDeals(localAcqs, bridgeData.deals) });
+    populateStrategyFilter();
+    renderResults();
+  }
+}
+
+init();
+
+// Same nav/menu/reveal motion as every other page on the site.
+const nav = document.getElementById('nav');
+const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 30);
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+const navToggle = document.getElementById('nav-toggle');
+const navLinks = document.getElementById('nav-links');
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  navToggle.textContent = navLinks.classList.contains('open') ? '✕' : '☰';
+});
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  navLinks.classList.remove('open');
+  navToggle.textContent = '☰';
+}));
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

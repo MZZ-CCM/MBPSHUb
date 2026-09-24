@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Property Details — Moyo Bespoke Property Solutions</title>
+<meta name="description" content="Property overview, financials and nearby area details from Moyo Bespoke Property Solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* Page-specific layout that builds on top of the shared style.css design system */
+  body { background: var(--off-white); }
+  .pp-hero {
+    background: linear-gradient(135deg, var(--navy-deep) 0%, var(--navy) 60%, var(--navy-mid) 100%);
+    color: var(--white);
+    padding: 64px 6vw 44px;
+    background-size: cover;
+    background-position: center;
+  }
+  .pp-brand { font-family: var(--font-serif); color: var(--gold-light); letter-spacing: 0.2em; font-size: 12.5px; text-transform: uppercase; margin-bottom: 16px; }
+  .pp-hero h1 { font-family: var(--font-serif); font-weight: 400; font-size: 2.5rem; color: var(--white); margin-bottom: 8px; }
+  .pp-hero .loc { font-size: 14px; opacity: 0.85; }
+  .pp-pill { display: inline-block; background: rgba(201,168,76,0.18); color: var(--gold-light); border: 1px solid rgba(201,168,76,0.4); border-radius: 999px; padding: 5px 16px; font-size: 12px; font-weight: 600; margin-top: 16px; }
+  .pp-wrap { max-width: 880px; margin: 0 auto; padding: 36px 6vw 60px; }
+  .pp-meta { display: flex; gap: 26px; margin-bottom: 24px; font-size: 14px; color: var(--dark-gray); flex-wrap: wrap; }
+  .pp-section { margin-bottom: 22px; }
+  .pp-section h2 { font-family: var(--font-serif); font-weight: 500; font-size: 1.25rem; color: var(--navy); margin-bottom: 16px; }
+  .pp-kpis { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
+  .pp-kpi { background: var(--gold-pale); border-radius: var(--radius-lg); padding: 16px; }
+  .pp-kpi .l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mid-gray); margin-bottom: 8px; }
+  .pp-kpi .v { font-family: var(--font-serif); font-size: 1.375rem; color: var(--navy); }
+  .pp-row { display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid var(--stone); font-size: 13.5px; }
+  .pp-row .v { font-weight: 600; color: var(--navy); }
+  .pp-row.total { border-top: 1px solid var(--warm-gray); border-bottom: none; padding-top: 12px; margin-top: 4px; font-weight: 700; }
+  .pp-nearby-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+  .pp-nearby-links a { display: flex; align-items: center; gap: 8px; background: var(--off-white); border: 1px solid var(--stone); color: var(--navy); border-radius: var(--radius-md); padding: 10px 14px; font-size: 13px; font-weight: 600; text-decoration: none; transition: background var(--duration-base) var(--ease-out); }
+  .pp-nearby-links a:hover { background: var(--gold-pale); }
+  .pp-decision { text-align: center; padding: 8px 0; }
+  .pp-decision .btns { display: flex; gap: 14px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+  .pp-thankyou { text-align: center; padding: 18px 0; }
+  .pp-thankyou .icon { font-size: 38px; margin-bottom: 10px; }
+  .pp-thankyou .msg { font-size: 16px; color: var(--navy); font-weight: 600; }
+  .pp-foot { text-align: center; padding: 28px 6vw; font-size: 11.5px; color: var(--mid-gray); }
+  .pp-notfound { text-align: center; padding: 100px 6vw; }
+  @media (max-width: 700px) {
+    .pp-kpis { grid-template-columns: repeat(2,1fr); }
+  }
+  /* Printable brief: accept/decline and reserve sections are interactive-only
+     and meaningless on paper, so .no-print drops them (see style.css) — that
+     frees up enough room to keep this a single page. */
+  @media print {
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    @page { size: A4; margin: 10mm; }
+    body { background: #fff; }
+    .pp-hero { padding: 16px 0 14px; background-image: none !important; color: var(--navy) !important; }
+    .pp-brand { color: var(--gold-dark, var(--navy)) !important; }
+    .pp-hero h1 { color: var(--navy) !important; }
+    .pp-hero .loc { color: var(--dark-gray) !important; opacity: 1; }
+    .pp-pill { background: var(--gold-pale) !important; color: var(--navy) !important; border-color: var(--stone) !important; }
+    .pp-wrap { padding: 10px 0; max-width: 100%; }
+    .card { box-shadow: none; border: 1px solid #ccc; padding: 14px 16px; }
+    .pp-section { margin-bottom: 10px; }
+    .pp-section h2 { font-size: 1.05rem; margin-bottom: 10px; }
+    .pp-kpi { background: var(--gold-pale) !important; padding: 10px; }
+    .pp-row { padding: 5px 0; font-size: 12px; }
+    .pp-nearby-links a { padding: 6px 10px; font-size: 11.5px; }
+    .pp-foot { padding: 12px 0; }
+  }
+</style>
+</head>
+<body>
+
+<div id="app-root"></div>
+
+<script>
+const STORAGE_KEY = 'mbps_crm_v2';
+
+// Notion (via the local sync bridge) is the source of truth for decisions
+// and reservations — localStorage/sessionStorage below are just same-device
+// fallbacks for when the bridge isn't reachable. Note this only works while
+// the bridge is reachable from wherever this page is opened: out of the box
+// that's localhost, so it only really applies when this page and the bridge
+// are on the same machine. To make it work for investors on their own
+// phones, host the bridge somewhere with a public URL and point this at
+// that URL instead.
+const BRIDGE_URL = 'http://localhost:4949';
+
+// Fire-and-forget POST to the bridge — never blocks the UI and fails silently
+// if the bridge isn't running/reachable (the local-storage write already
+// happened, so the investor's action still "worked" from their side).
+function pushToBridge(payload) {
+  fetch(BRIDGE_URL + '/sync', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  }).catch(() => {});
+}
+
+// Best-effort pull of the canonical deal state from Notion so this page
+// reflects reality even if another device reserved/responded to it since
+// this link was generated. Silently does nothing if the bridge can't be
+// reached.
+async function pullCanonicalDeal(id) {
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 2500);
+    const res = await fetch(BRIDGE_URL + '/deal/' + encodeURIComponent(id), { signal: ctrl.signal });
+    clearTimeout(t);
+    const json = await res.json();
+    return json.ok ? json.deal : null;
+  } catch (e) { return null; }
+}
+
+function loadDB() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) { return null; }
+}
+function saveDB(db) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
+}
+function getParam(name) {
+  return new URLSearchParams(location.search).get(name);
+}
+// The property data travels inside the link itself (base64 JSON in ?d=) so
+// this page works even with no shared localStorage — different device,
+// fresh browser profile, sandboxed preview, etc. ?id= alone is no longer
+// enough on its own, since there's nothing here to look it up against.
+function decodePropertyPayload(encoded) {
+  // URLSearchParams.get() already URL-decodes the raw query value, so
+  // `encoded` here is the plain base64 string — don't decodeURIComponent it again.
+  try {
+    const json = decodeURIComponent(escape(atob(encoded)));
+    return JSON.parse(json);
+  } catch (e) { return null; }
+}
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function fmt(n) { return n == null || n === '' ? '—' : '£' + Number(n).toLocaleString('en-GB'); }
+
+// Drop the first comma-separated segment (house number / street) so the
+// public page only ever shows the area, not the exact address — matches
+// how property portals withhold the precise address pre-offer.
+function areaFromAddress(address) {
+  if (!address) return '';
+  const parts = address.split(',').map(s => s.trim()).filter(Boolean);
+  return parts.length > 1 ? parts.slice(1).join(', ') : parts[0] || '';
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// Per-strategy profitability calculator — mirrors computeStrategyFinancials
+// in MBPS-CRM.html so this standalone page shows the same numbers without
+// needing to load the full CRM app.
+// ═══════════════════════════════════════════════════════════════════════════
+function computeStrategyFinancials(a) {
+  const si = a.strategyInputs || {};
+  const price = a.price || 0;
+  const stampDuty = price ? Math.round(price * 0.05) : 0;
+  const legal = price ? 2500 : 0;
+  const sourcingFee = a.fee || 0;
+
+  if (a.proptype === 'Serviced Accommodation') {
+    const nightlyRate = si.nightlyRate || 0;
+    const occupancyPct = si.occupancyPct || 0;
+    const rentToLandlord = si.rentToLandlord || 0;
+    const billsMonthly = si.billsMonthly || 0;
+    const avgStayNights = si.avgStayNights || 3;
+    const cleaningPerTurnover = si.cleaningPerTurnover || 0;
+    const otaFeePct = si.otaFeePct || 0;
+    const mgmtFeePct = si.mgmtFeePct || 0;
+    const furnitureCost = si.setupCost || a.renovation || 0;
+    const deposit = a.deposit || 0;
+
+    const occupiedNights = 30.4 * (occupancyPct / 100);
+    const grossRevenue = nightlyRate * occupiedNights;
+    const otaFees = grossRevenue * (otaFeePct / 100);
+    const turnovers = avgStayNights ? occupiedNights / avgStayNights : 0;
+    const cleaningCost = turnovers * cleaningPerTurnover;
+    const mgmtFee = grossRevenue * (mgmtFeePct / 100);
+    const totalCosts = rentToLandlord + billsMonthly + cleaningCost + otaFees + mgmtFee;
+    const netMonthly = grossRevenue - totalCosts;
+    const netAnnual = netMonthly * 12;
+    const totalInvest = deposit + rentToLandlord + billsMonthly + furnitureCost + sourcingFee;
+
+    return {
+      strategyLabel: 'Serviced Accommodation (Rent-to-Rent Airbnb)',
+      kpis: [
+        { label: 'Gross Monthly Revenue', value: fmt(Math.round(grossRevenue)) },
+        { label: 'Net Monthly Profit', value: fmt(Math.round(netMonthly)) },
+        { label: 'Occupancy', value: occupancyPct ? occupancyPct + '%' : '—' },
+        { label: 'Avg Nightly Rate', value: fmt(nightlyRate) }
+      ],
+      costTitle: 'Operating Costs (Monthly)',
+      costRows: [
+        ['Rent to Landlord', fmt(rentToLandlord)],
+        ['Bills & Utilities', fmt(billsMonthly)],
+        [`Cleaning (≈${turnovers.toFixed(1)} turnovers/mo)`, fmt(Math.round(cleaningCost))],
+        [`OTA / Booking Fees (${otaFeePct}%)`, fmt(Math.round(otaFees))],
+        [`Management Fee (${mgmtFeePct}%)`, fmt(Math.round(mgmtFee))]
+      ],
+      costTotalLabel: 'Total Monthly Costs', costTotalVal: fmt(Math.round(totalCosts)),
+      incomeTitle: 'Net Income',
+      incomeRows: [['Gross Monthly Revenue', fmt(Math.round(grossRevenue))]],
+      incomeTotalLabel: 'Net Monthly Profit', incomeTotalVal: fmt(Math.round(netMonthly)),
+      investSectionLabel: 'Total Setup Investment', investSectionVal: totalInvest,
+      investRows: [
+        ['Deposit to Landlord', fmt(deposit)],
+        ["First Month's Rent", fmt(rentToLandlord)],
+        ["First Month's Bills", fmt(billsMonthly)],
+        ['Furniture / Setup Cost', fmt(furnitureCost)],
+        ['MBPS Sourcing Fee', fmt(sourcingFee)]
+      ]
+    };
+  }
+
+  if (a.proptype === 'HMO') {
+    const numRooms = si.numRooms || a.units || 0;
+    const roomRent = si.roomRent || 0;
+    const voidPct = si.voidPct || 0;
+    const billsMonthly = si.billsMonthly || 0;
+    const mgmtFeePct = si.mgmtFeePct || 0;
+    const setupCost = si.setupCost || a.renovation || 0;
+    const grossMonthlyRent = numRooms * roomRent;
+    const voidLoss = grossMonthlyRent * (voidPct / 100);
+    const effectiveRent = grossMonthlyRent - voidLoss;
+    const mgmtFee = effectiveRent * (mgmtFeePct / 100);
+    const netMonthly = effectiveRent - billsMonthly - mgmtFee;
+    const totalInvest = price + setupCost + stampDuty + legal + sourcingFee;
+    return {
+      strategyLabel: 'HMO (House of Multiple Occupation)',
+      kpis: [
+        { label: 'Gross Monthly Rent', value: fmt(Math.round(grossMonthlyRent)) },
+        { label: 'Net Monthly Profit', value: fmt(Math.round(netMonthly)) },
+        { label: 'Rooms', value: numRooms || '—' },
+        { label: 'Rent per Room', value: fmt(roomRent) }
+      ],
+      costTitle: 'Costs (Monthly)',
+      costRows: [
+        ['Bills & Utilities (all-inclusive)', fmt(billsMonthly)],
+        [`Void Loss (${voidPct}%)`, fmt(Math.round(voidLoss))],
+        [`Management Fee (${mgmtFeePct}%)`, fmt(Math.round(mgmtFee))]
+      ],
+      costTotalLabel: 'Total Monthly Costs', costTotalVal: fmt(Math.round(billsMonthly + mgmtFee + voidLoss)),
+      incomeTitle: 'Room Income',
+      incomeRows: [[`${numRooms} Rooms × ${fmt(roomRent)}`, fmt(Math.round(grossMonthlyRent))]],
+      incomeTotalLabel: 'Net Monthly Profit', incomeTotalVal: fmt(Math.round(netMonthly)),
+      investSectionLabel: 'Total Investment (Purchase + Refurb + Costs)', investSectionVal: totalInvest,
+      investRows: [
+        ['Asking Price', fmt(price)],
+        ['Setup / Refurb Cost', fmt(setupCost)],
+        ['Stamp Duty (5% est.)', fmt(stampDuty)],
+        ['Legal & Survey Fees', fmt(legal)],
+        ['MBPS Sourcing Fee', fmt(sourcingFee)]
+      ]
+    };
+  }
+
+  if (a.proptype === 'Commercial') {
+    const annualRent = si.annualRent || (a.rent ? a.rent * 12 : 0);
+    const voidPct = si.voidPct || 0;
+    const serviceChargeAnnual = si.serviceChargeAnnual || 0;
+    const insuranceAnnual = si.insuranceAnnual || 0;
+    const mgmtFeePct = si.mgmtFeePct || 0;
+    const setupCost = si.setupCost || a.renovation || 0;
+    const voidLoss = annualRent * (voidPct / 100);
+    const effectiveRent = annualRent - voidLoss;
+    const mgmtFee = effectiveRent * (mgmtFeePct / 100);
+    const netAnnual = effectiveRent - serviceChargeAnnual - insuranceAnnual - mgmtFee;
+    const totalInvest = price + setupCost + stampDuty + legal + sourcingFee;
+    return {
+      strategyLabel: 'Commercial',
+      kpis: [
+        { label: 'Annual Rent (Lease)', value: fmt(annualRent) },
+        { label: 'Net Annual Income', value: fmt(Math.round(netAnnual)) },
+        { label: 'Lease Length', value: (si.leaseYears || '—') + (si.leaseYears ? ' yrs' : '') },
+        { label: 'Void Rate', value: voidPct ? voidPct + '%' : '—' }
+      ],
+      costTitle: 'Costs (Annual)',
+      costRows: [
+        [`Void Loss (${voidPct}%)`, fmt(Math.round(voidLoss))],
+        ['Service Charge', fmt(serviceChargeAnnual)],
+        ['Insurance', fmt(insuranceAnnual)],
+        [`Management Fee (${mgmtFeePct}%)`, fmt(Math.round(mgmtFee))]
+      ],
+      costTotalLabel: 'Total Annual Costs', costTotalVal: fmt(Math.round(voidLoss + serviceChargeAnnual + insuranceAnnual + mgmtFee)),
+      incomeTitle: 'Lease Income',
+      incomeRows: [['Annual Rent (Lease)', fmt(annualRent)]],
+      incomeTotalLabel: 'Net Annual Income', incomeTotalVal: fmt(Math.round(netAnnual)),
+      investSectionLabel: 'Total Investment (Purchase + Fit-out + Costs)', investSectionVal: totalInvest,
+      investRows: [
+        ['Asking Price', fmt(price)],
+        ['Fit-out / Setup Cost', fmt(setupCost)],
+        ['Stamp Duty (5% est.)', fmt(stampDuty)],
+        ['Legal & Survey Fees', fmt(legal)],
+        ['MBPS Sourcing Fee', fmt(sourcingFee)]
+      ]
+    };
+  }
+
+  if (a.proptype === 'Mixed Use') {
+    const resUnits = si.resUnits || 0;
+    const resRentPerUnit = si.resRentPerUnit || 0;
+    const commUnits = si.commUnits || 0;
+    const commRentPerUnitAnnual = si.commRentPerUnitAnnual || 0;
+    const billsMonthly = si.billsMonthly || 0;
+    const mgmtFeePct = si.mgmtFeePct || 0;
+    const setupCost = si.setupCost || a.renovation || 0;
+    const resMonthlyIncome = resUnits * resRentPerUnit;
+    const commMonthlyIncome = (commUnits * commRentPerUnitAnnual) / 12;
+    const grossMonthlyIncome = resMonthlyIncome + commMonthlyIncome;
+    const mgmtFee = grossMonthlyIncome * (mgmtFeePct / 100);
+    const netMonthly = grossMonthlyIncome - billsMonthly - mgmtFee;
+    const totalInvest = price + setupCost + stampDuty + legal + sourcingFee;
+    return {
+      strategyLabel: 'Mixed Use',
+      kpis: [
+        { label: 'Gross Monthly Income', value: fmt(Math.round(grossMonthlyIncome)) },
+        { label: 'Net Monthly Profit', value: fmt(Math.round(netMonthly)) },
+        { label: 'Residential Units', value: resUnits || '—' },
+        { label: 'Commercial Units', value: commUnits || '—' }
+      ],
+      costTitle: 'Costs (Monthly)',
+      costRows: [
+        ['Bills (shared areas)', fmt(billsMonthly)],
+        [`Management Fee (${mgmtFeePct}%)`, fmt(Math.round(mgmtFee))]
+      ],
+      costTotalLabel: 'Total Monthly Costs', costTotalVal: fmt(Math.round(billsMonthly + mgmtFee)),
+      incomeTitle: 'Residential + Commercial Income',
+      incomeRows: [
+        [`${resUnits} Residential × ${fmt(resRentPerUnit)}/mo`, fmt(Math.round(resMonthlyIncome))],
+        [`${commUnits} Commercial × ${fmt(commRentPerUnitAnnual)}/yr`, fmt(Math.round(commMonthlyIncome)) + '/mo']
+      ],
+      incomeTotalLabel: 'Net Monthly Profit', incomeTotalVal: fmt(Math.round(netMonthly)),
+      investSectionLabel: 'Total Investment (Purchase + Refurb + Costs)', investSectionVal: totalInvest,
+      investRows: [
+        ['Asking Price', fmt(price)],
+        ['Setup / Refurb Cost', fmt(setupCost)],
+        ['Stamp Duty (5% est.)', fmt(stampDuty)],
+        ['Legal & Survey Fees', fmt(legal)],
+        ['MBPS Sourcing Fee', fmt(sourcingFee)]
+      ]
+    };
+  }
+
+  if (a.proptype === 'Land') {
+    const gdv = si.gdv || 0;
+    const buildCost = si.buildCost || 0;
+    const planningCosts = si.planningCosts || 0;
+    const holdingCostMonthly = si.holdingCostMonthly || 0;
+    const monthsToExit = si.monthsToExit || 0;
+    const contingencyPct = si.contingencyPct || 0;
+    const holdingCostsTotal = holdingCostMonthly * monthsToExit;
+    const subtotalCosts = price + buildCost + planningCosts + holdingCostsTotal + sourcingFee;
+    const contingency = subtotalCosts * (contingencyPct / 100);
+    const totalCosts = subtotalCosts + contingency;
+    const profit = gdv - totalCosts;
+    return {
+      strategyLabel: 'Land / Development',
+      kpis: [
+        { label: 'Gross Development Value', value: fmt(gdv) },
+        { label: 'Total Profit', value: fmt(Math.round(profit)) },
+        { label: 'Months to Exit', value: monthsToExit || '—' },
+        { label: 'Total Development Cost', value: fmt(Math.round(totalCosts)) }
+      ],
+      costTitle: 'Development Costs',
+      costRows: [
+        ['Land / Purchase Price', fmt(price)],
+        ['Build / Development Cost', fmt(buildCost)],
+        ['Planning & Professional Fees', fmt(planningCosts)],
+        [`Holding Costs (${monthsToExit} mo)`, fmt(Math.round(holdingCostsTotal))],
+        ['MBPS Sourcing Fee', fmt(sourcingFee)],
+        [`Contingency (${contingencyPct}%)`, fmt(Math.round(contingency))]
+      ],
+      costTotalLabel: 'Total Development Cost', costTotalVal: fmt(Math.round(totalCosts)),
+      incomeTitle: 'Exit Value',
+      incomeRows: [['Gross Development Value', fmt(gdv)]],
+      incomeTotalLabel: 'Total Profit', incomeTotalVal: fmt(Math.round(profit)),
+      investSectionLabel: 'Total Development Cost', investSectionVal: totalCosts,
+      investRows: [
+        ['Land / Purchase Price', fmt(price)],
+        ['Build / Development Cost', fmt(buildCost)],
+        ['Planning & Professional Fees', fmt(planningCosts)],
+        [`Holding Costs (${monthsToExit} mo)`, fmt(Math.round(holdingCostsTotal))],
+        ['MBPS Sourcing Fee', fmt(sourcingFee)],
+        [`Contingency (${contingencyPct}%)`, fmt(Math.round(contingency))]
+      ]
+    };
+  }
+
+  // Buy-to-Let — standard purchase/yield model
+  const reno = a.renovation || 0;
+  const rent = a.rent || 0;
+  const annualRent = rent * 12;
+  const totalInvest = price + reno + stampDuty + legal + sourcingFee;
+  const netAnnual = annualRent - (annualRent * 0.30);
+  const grossYield = price && rent ? ((annualRent / price) * 100) : null;
+  return {
+    strategyLabel: a.proptype || 'Buy-to-Let',
+    kpis: [
+      { label: 'Gross Yield', value: grossYield ? grossYield.toFixed(1) + '%' : '—' },
+      { label: 'Net Annual Income', value: fmt(Math.round(netAnnual)) },
+      { label: 'Monthly Rent', value: fmt(rent) },
+      { label: 'Asking Price', value: fmt(price) }
+    ],
+    costTitle: 'Acquisition Costs',
+    costRows: [
+      ['Asking Price', fmt(price)],
+      ['Renovation Estimate', fmt(reno)],
+      ['Stamp Duty (5% est.)', fmt(stampDuty)],
+      ['Legal & Survey Fees', fmt(legal)],
+      ['MBPS Sourcing Fee', fmt(sourcingFee)]
+    ],
+    costTotalLabel: 'Total Investment', costTotalVal: fmt(totalInvest),
+    incomeTitle: 'Income',
+    incomeRows: [
+      ['Annual Rent (Gross)', fmt(annualRent)],
+      ['Operating Costs (30% est.)', '−' + fmt(Math.round(annualRent * 0.30))]
+    ],
+    incomeTotalLabel: 'Net Annual Income', incomeTotalVal: fmt(Math.round(netAnnual)),
+    investSectionLabel: 'Total Investment', investSectionVal: totalInvest,
+    investRows: null
+  };
+}
+
+// The Accept/Decline response is recorded in two places: a small local
+// override store (works on this device even with no shared DB) and,
+// best-effort, the main CRM DB if this device happens to share it — so the
+// team sees it immediately when both the link and the CRM are on the same
+// browser/profile.
+// sessionStorage (not localStorage) on purpose: the response should reset
+// every time the investor opens a fresh link/tab, rather than being
+// remembered forever on this device. It still survives a reload within the
+// same tab so the thank-you screen sticks around after responding.
+const DECISIONS_KEY = 'mbps_client_decisions';
+function loadDecisions() {
+  try { return JSON.parse(sessionStorage.getItem(DECISIONS_KEY) || '{}'); } catch (e) { return {}; }
+}
+function recordDecision(id, status) {
+  const decisions = loadDecisions();
+  const decision = status == null ? null : { status, at: new Date().toISOString() };
+  if (decision == null) delete decisions[id]; else decisions[id] = decision;
+  sessionStorage.setItem(DECISIONS_KEY, JSON.stringify(decisions));
+
+  const db = loadDB();
+  const a = db && (db.acquisitions || []).find(x => x.id === id);
+  if (a) {
+    if (decision == null) delete a.investorDecision;
+    else a.investorDecision = decision;
+    a.updatedAt = new Date().toISOString();
+    saveDB(db);
+  }
+
+  // Push straight to Notion (via the bridge) so this is the canonical
+  // record, not just whatever happens to be in this browser's storage.
+  pushToBridge({ deals: [{ ...(_currentProp || {}), id, investorDecision: decision }] });
+}
+
+function respond(id, decision) { recordDecision(id, decision); render(); }
+function resetDecision(id) { recordDecision(id, null); render(); }
+
+// Exclusive reservation (£100, separate from the sourcing fee) — same
+// local-override + best-effort-DB pattern as decisions above.
+const RESERVATIONS_KEY = 'mbps_client_reservations';
+function loadReservations() {
+  try { return JSON.parse(sessionStorage.getItem(RESERVATIONS_KEY) || '{}'); } catch (e) { return {}; }
+}
+function recordReservation(id, amount) {
+  const reservations = loadReservations();
+  const reserved = { at: new Date().toISOString(), amount };
+  reservations[id] = reserved;
+  sessionStorage.setItem(RESERVATIONS_KEY, JSON.stringify(reservations));
+
+  const task = {
+    id: 'task_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8),
+    title: `Confirm reservation payment — ${(_currentProp && _currentProp.name) || id}`,
+    due: new Date().toISOString().slice(0, 10),
+    priority: 'High',
+    investorId: (_currentProp && _currentProp.clientId) || '',
+    acquisitionId: id,
+    notes: `Investor confirmed they've paid the £${amount} reservation fee via the property link. Verify the transfer has landed, then mark the deal as locked.`,
+    done: false,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  };
+
+  const db = loadDB();
+  const a = db && (db.acquisitions || []).find(x => x.id === id);
+  if (a) {
+    a.reserved = reserved;
+    a.updatedAt = new Date().toISOString();
+    // Every confirmed reservation payment needs a follow-up task in the
+    // CRM (verify the bank transfer landed, then lock the deal down) —
+    // staff shouldn't have to notice the reservation pill to know to act.
+    db.tasks = db.tasks || [];
+    db.tasks.push(task);
+    saveDB(db);
+  }
+
+  // Push straight to Notion (via the bridge) so the reservation is locked
+  // in centrally, not just remembered by this one browser/device.
+  pushToBridge({ deals: [{ ...(_currentProp || {}), id, reserved }], tasks: [task] });
+}
+
+let _showReserveConfirm = false;
+function toggleReserveConfirm(open) { _showReserveConfirm = open; render(); }
+function confirmReservation(id, amount) {
+  recordReservation(id, amount);
+  _showReserveConfirm = false;
+  render();
+}
+
+// The property object currently on screen, kept around so recordDecision/
+// recordReservation can push a full record to the bridge, not just an id.
+let _currentProp = null;
+// Guards against re-pulling from the bridge every render (render() re-runs
+// after every click) — only pull the canonical state once per page load,
+// unless explicitly asked to refresh again.
+let _canonicalPulled = false;
+let _canonicalDeal = null;
+
+function render() {
+  const root = document.getElementById('app-root');
+  const id = getParam('id');
+  const encoded = getParam('d');
+
+  // The link carries the property data itself, so it works with no shared
+  // storage at all. Fall back to the local CRM DB by id only for legacy
+  // links that don't have ?d=.
+  let a = encoded ? decodePropertyPayload(encoded) : null;
+  if (!a) {
+    const db = loadDB();
+    a = db && id ? (db.acquisitions || []).find(x => x.id === id) : null;
+  }
+
+  if (!a) {
+    root.innerHTML = `<div class="pp-notfound">
+      <h2 class="h2">Property not found</h2>
+      <p class="text-muted" style="margin-top:8px">This link may be broken or incomplete — ask for a fresh share link from the CRM.</p>
+    </div>`;
+    return;
+  }
+
+  // Canonical state from Notion (via the bridge) overrides the snapshot
+  // baked into the link, e.g. someone else already reserved this from a
+  // different device since the link was sent. Best-effort and silent if
+  // the bridge isn't reachable — fires once, then re-renders when it lands.
+  if (!_canonicalPulled) {
+    _canonicalPulled = true;
+    pullCanonicalDeal(a.id).then(deal => {
+      if (deal) { _canonicalDeal = deal; render(); }
+    });
+  }
+  if (_canonicalDeal && _canonicalDeal.id === a.id) {
+    // Only adopt fields Notion actually tracks (see pageToDeal) — CRM-only
+    // fields like bedrooms/image/strategyInputs stay as the link sent them.
+    Object.assign(a, {
+      stage: _canonicalDeal.stage ?? a.stage,
+      price: _canonicalDeal.price ?? a.price,
+      rent: _canonicalDeal.rent ?? a.rent,
+      fee: _canonicalDeal.fee ?? a.fee,
+      address: _canonicalDeal.address || a.address,
+      proptype: _canonicalDeal.proptype || a.proptype,
+      investorDecision: _canonicalDeal.investorDecision,
+      reserved: _canonicalDeal.reserved,
+    });
+  }
+
+  // A response made on THIS device in THIS session takes priority over even
+  // the canonical pull — covers the moment right after responding/reserving,
+  // before the next pull has had a chance to reflect it back.
+  const localDecisions = loadDecisions();
+  if (localDecisions[a.id]) a.investorDecision = localDecisions[a.id];
+  const localReservations = loadReservations();
+  if (localReservations[a.id]) a.reserved = localReservations[a.id];
+
+  _currentProp = a;
+
+  const fin = computeStrategyFinancials(a);
+  const heroImg = a.image || 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1400&q=80';
+  const area = areaFromAddress(a.address);
+  const nearby = area ? [
+    { label: '🚆 Train Stations', q: 'train station near ' + area },
+    { label: '🛒 Supermarkets', q: 'supermarket near ' + area },
+    { label: '🏪 Shops', q: 'shops near ' + area },
+    { label: '🏫 Schools', q: 'schools near ' + area },
+    { label: '🚌 Bus Stops', q: 'bus stop near ' + area },
+    { label: '🏥 GP / Pharmacy', q: 'pharmacy near ' + area }
+  ] : [];
+  const decision = a.investorDecision;
+  const bd = a.bankDetails || { accountName: 'Moyo Bespoke Property Solutions Ltd', sortCode: '', accountNumber: '', reservationFee: 100 };
+  // Never show payment instructions unless real bank details have been entered in the CRM.
+  const bankReady = !!(bd.sortCode && bd.accountNumber && bd.sortCode !== '00-00-00' && bd.accountNumber !== '00000000');
+
+  document.title = a.name + ' — Property Details';
+
+  root.innerHTML = `
+    <div class="pp-hero" style="background-image:linear-gradient(rgba(15,30,56,0.78),rgba(15,30,56,0.88)),url('${esc(heroImg)}')">
+      <div class="pp-wrap" style="padding:0">
+        <button class="btn btn-outline btn-sm no-print" style="position:absolute;top:24px;right:6vw;background:rgba(255,255,255,0.1);color:#fff;border-color:rgba(255,255,255,0.4)" onclick="window.print()">🖨 Print / Save PDF</button>
+        <div class="pp-brand">Moyo Bespoke Property Solutions</div>
+        <h1>${esc(a.name)}</h1>
+        <div class="loc">📍 ${esc(area || a.proptype || '')}</div>
+        <span class="pp-pill">${esc(fin.strategyLabel)}</span>
+      </div>
+    </div>
+
+    <div class="pp-wrap">
+      <div class="pp-meta">
+        ${a.bedrooms!=null && a.bedrooms!=='' ? `<div><b>${esc(String(a.bedrooms))}</b> bed</div>` : ''}
+        ${a.bathrooms!=null && a.bathrooms!=='' ? `<div><b>${esc(String(a.bathrooms))}</b> bath</div>` : ''}
+        ${a.price ? `<div><b>${fmt(a.price)}</b> price</div>` : ''}
+      </div>
+
+      <div class="card pp-section">
+        <h2>Financial Overview</h2>
+        <div class="pp-kpis">
+          ${fin.kpis.map(k => `<div class="pp-kpi"><div class="l">${esc(k.label)}</div><div class="v">${k.value}</div></div>`).join('')}
+        </div>
+      </div>
+
+      <div class="card pp-section">
+        <h2>${esc(fin.investSectionLabel || 'Initial Investment')}</h2>
+        ${fin.investRows ? fin.investRows.map(([l,v]) => `<div class="pp-row"><span>${esc(l)}</span><span class="v">${v}</span></div>`).join('') : ''}
+        <div class="pp-row total"><span>${esc(fin.investSectionLabel || 'Total')}</span><span class="v">${fmt(fin.investSectionVal)}</span></div>
+      </div>
+
+      <div class="card pp-section">
+        <h2>${esc(fin.costTitle)}</h2>
+        ${fin.costRows.map(([l,v]) => `<div class="pp-row"><span>${esc(l)}</span><span class="v">${v}</span></div>`).join('')}
+        <div class="pp-row total"><span>${esc(fin.costTotalLabel)}</span><span class="v">${fin.costTotalVal}</span></div>
+        <h2 style="margin-top:20px">${esc(fin.incomeTitle)}</h2>
+        ${fin.incomeRows.map(([l,v]) => `<div class="pp-row"><span>${esc(l)}</span><span class="v">${v}</span></div>`).join('')}
+        <div class="pp-row total"><span>${esc(fin.incomeTotalLabel)}</span><span class="v">${fin.incomeTotalVal}</span></div>
+      </div>
+
+      ${area ? `<div class="card pp-section">
+        <h2>What's Nearby</h2>
+        <p class="text-muted text-sm" style="margin-bottom:4px">Open in Google Maps to explore what's around ${esc(area)}:</p>
+        <div class="pp-nearby-links">
+          ${nearby.map(n => `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(n.q)}" target="_blank" rel="noopener">${n.label} ↗</a>`).join('')}
+        </div>
+      </div>` : ''}
+
+      <div class="card pp-section no-print">
+        ${decision ? `<div class="pp-thankyou">
+          <div class="icon">${decision.status === 'accepted' ? '🤝' : '🙏'}</div>
+          <div class="msg">${decision.status === 'accepted'
+            ? 'Thank you — your representative will follow this up for you.'
+            : 'Thank you — we will keep searching for the right property for you.'}</div>
+          <div style="margin-top:12px"><button class="btn btn-outline btn-sm" onclick="resetDecision('${esc(a.id)}')">Change my response</button></div>
+        </div>` : `<div class="pp-decision">
+          <h2 style="margin-bottom:4px">Interested in this property?</h2>
+          <p class="text-muted text-sm">Let us know if you'd like to move forward.</p>
+          <div class="btns">
+            <button class="btn btn-primary btn-lg" onclick="respond('${esc(a.id)}','accepted')">✓ Accept</button>
+            <button class="btn btn-outline btn-lg" onclick="respond('${esc(a.id)}','declined')">✕ Decline</button>
+          </div>
+        </div>`}
+      </div>
+
+      ${decision && decision.status === 'accepted' ? `<div class="card pp-section no-print">
+        ${a.reserved ? `<div class="pp-thankyou">
+          <div class="icon">🔒</div>
+          <div class="msg">This property is reserved exclusively for you.</div>
+          <p class="text-muted text-sm" style="margin-top:6px">Reserved ${new Date(a.reserved.at).toLocaleDateString('en-GB')} · ${fmt(a.reserved.amount)} reservation fee</p>
+        </div>` : _showReserveConfirm ? `
+          <h2>Confirm Exclusive Reservation</h2>
+          <div class="alert alert-gold" style="margin-bottom:16px">You are about to reserve this deal, which will mark it as unreservable to all our other clients.</div>
+          <div class="pp-row"><span>Reservation Fee</span><span class="v">${fmt(bd.reservationFee || 100)}</span></div>
+          ${bankReady ? `<div class="pp-row"><span>Account Name</span><span class="v">${esc(bd.accountName || '—')}</span></div>
+          <div class="pp-row"><span>Sort Code</span><span class="v">${esc(bd.sortCode)}</span></div>
+          <div class="pp-row total"><span>Account Number</span><span class="v">${esc(bd.accountNumber)}</span></div>
+          <p class="text-muted text-sm" style="margin-top:12px">Use "${esc(a.name)}" as your payment reference. Once we receive the reservation fee, this property is held exclusively for you and removed from all other clients' searches.</p>
+          <div class="btns" style="margin-top:16px">
+            <button class="btn btn-primary btn-lg" onclick="confirmReservation('${esc(a.id)}', ${bd.reservationFee || 100})">I've Paid — Confirm Reservation</button>
+            <button class="btn btn-outline btn-lg" onclick="toggleReserveConfirm(false)">Cancel</button>
+          </div>` : `<p class="text-muted text-sm" style="margin-top:12px">To reserve, please contact us and we'll confirm payment details with you directly: <a href="tel:+447447394309">07447 394 309</a> · <a href="mailto:info@moyobespoke.com">info@moyobespoke.com</a>. Never pay into an account you haven't confirmed with us by phone.</p>
+          <div class="btns" style="margin-top:16px">
+            <button class="btn btn-outline btn-lg" onclick="toggleReserveConfirm(false)">Back</button>
+          </div>`}
+        ` : `
+          <h2 style="margin-bottom:4px">Want this property exclusively?</h2>
+          <p class="text-muted text-sm">Reserve it for a ${fmt(bd.reservationFee || 100)} fee (separate from the sourcing fee) so no other client can take it while you move forward.</p>
+          <div class="btns" style="margin-top:14px">
+            <button class="btn btn-gold btn-lg" onclick="toggleReserveConfirm(true)">🔒 Reserve This Deal</button>
+          </div>
+        `}
+      </div>` : ''}
+    </div>
+    <div class="pp-foot">Prepared by Moyo Bespoke Property Solutions · ${new Date().toLocaleDateString('en-GB')}</div>
+  `;
+}
+
+render();
+</script>
+</body>
+</html>
